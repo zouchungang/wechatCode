@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link href="${staticCtx }/common/h5/css/bootstrap.min14ed.css?v=3.3.6" rel="stylesheet">
+    <link href="${staticCtx }/common/h5/css/font-awesome.min93e3.css?v=4.4.0" rel="stylesheet">
+    <link href="${staticCtx }/common/h5/css/animate.min.css" rel="stylesheet">
+    <link href="${staticCtx }/common/h5/css/style.min862f.css?v=4.1.0" rel="stylesheet">
+</head>
+<body class="gray-bg">
+<div class="row">
+    <div class="col-sm-12">
+        <div class="wrapper wrapper-content animated fadeInUp">
+            <div class="faq-item">
+                <div class="row">
+                    <div class="col-md-7">
+                        <a data-toggle="collapse" href="#faq1" class="faq-question">1. 什么是景区信息？</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div id="faq1" class="panel-collapse collapse in faq-answer">
+                            <p>
+                                1、景区基础信息的展示（景区代码，景区名称，appId，appKey，联系人姓名，手机号码，景区地址，email，简介），可以景区的一些信息进行修改。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!--<div class="row" style="margin-top: 10px">
+                    <div class="col-md-7">
+                        <a data-toggle="collapse" href="#faq2" class="faq-question">2. 怎么进行门票资源分配？</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div id="faq2" class="panel-collapse collapse in faq-answer">
+                            <p>
+                                1、在页面左侧选中一个门票的时间段，在页面右侧业务系统列表点击资源数量进行修改。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 10px">
+                    <div class="col-md-7">
+                        <a data-toggle="collapse" href="#faq3" class="faq-question">3. 名词解释</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div id="faq3" class="panel-collapse collapse in faq-answer">
+                            <p>
+                            <h4>3.1 配置总额数量</h4>
+                            <h4>3.2 已分配数量</h4>
+                            <h4>3.3 未分配数量</h4>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 10px">
+                    <div class="col-md-7">
+                        <a data-toggle="collapse" href="#faq4" class="faq-question">4. 备注</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div id="faq4" class="panel-collapse collapse in faq-answer">
+                            <p>
+                               1、使用门票资源分配的前提是，已经在门票管理里边启用了资源控制并且分配了资源量。
+                            </p>
+                        </div>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+    </div>
+</div>
+<script src="${staticCtx }/common/h5/js/jquery.min.js?v=2.1.4"></script>
+<script src="${staticCtx }/common/h5/js/bootstrap.min.js?v=3.3.6"></script>
+<script src="${staticCtx }/common/h5/js/content.min.js?v=1.0.0"></script>
+<script>
+    $(document).ready(function () {
+        $("#loading-example-btn").click(function () {
+            btn = $(this);
+            simpleLoad(btn, true);
+            simpleLoad(btn, false)
+        })
+    });
+
+    function simpleLoad(btn, state) {
+        if (state) {
+            btn.children().addClass("fa-spin");
+            btn.contents().last().replaceWith(" Loading")
+        } else {
+            setTimeout(function () {
+                btn.children().removeClass("fa-spin");
+                btn.contents().last().replaceWith(" Refresh")
+            }, 2000)
+        }
+    };
+</script>
+<script type="text/javascript" src="http://tajs.qq.com/stats?sId=9051096" charset="UTF-8"></script>
+</body>
+</html>

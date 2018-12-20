@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
+    <description>Shiro安全配置</description>
+    <bean id="redisSessionDAO" class="com.rent.common.shiro.RedisSessionDao">
+        <!-- 设置session在redis中的超时时间，毫秒为单位-->
+        <property name="timeout" value="${session.timeout}"/>
+        <property name="sessionIdPrefix" value="${sessionIdPrefix}"/>
+        <property name="sessionIdPrefix_keys" value="${sessionIdPrefix.keys}"/>
+    </bean>
+    <bean id="shiroSessionListener" class="com.rent.common.shiro.ShiroSessionListener"/>
+    <bean id="sessionManager"
+          class="org.apache.shiro.web.session.mgt.DefaultWebSessionManager">
+        <property name="sessionListeners" ref="shiroSessionListener"/>
+        <property name="sessionValidationSchedulerEnabled" value="false"/>
+        <!-- 设置session超时时间，毫秒为单位-->
+        <property name="globalSessionTimeout" value="${session.timeout}"/>
+        <property name="sessionIdCookieEnabled"  value="true"/>
+        <property name="sessionIdCookie" ref="sessionIdCookie"/>
+        <property name="sessionDAO" ref="redisSessionDAO"/>
+    </bean>
+    <!-- Shiro's main business-tier object for web-enabled applications -->
+    <bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
+        <property name="sessionManager" ref="sessionManager"/>
+        <property name="realm" ref="shiroAuthDbRealm"/>
+        <property name="cacheManager" ref="shiroEhcacheManager"/>
+    </bean>
+    <!-- 指定本系统SESSIONID, 默认为: JSESSIONID 问题: 与SERVLET容器名冲突, 如JETTY, TOMCAT 等默认JSESSIONID,
+            当跳出SHIRO SERVLET时如ERROR-PAGE容器会为JSESSIONID重新分配值导致登录会话丢失! -->
+    <bean id="sessionIdCookie" class="org.apache.shiro.web.servlet.SimpleCookie">
+        <constructor-arg name="name" value="entrance.session.id"/>
+    </bean>
+    <!-- 項目自定义的Realm -->
+    <bean id="shiroAuthDbRealm" class="com.rent.common.shiro.ShiroAuthRealm">
+        <property name="name" value="shiroAuthRealm"/>
+    </bean>
+
+    <!-- Shiro Filter -->
+    <bean id="shiroFilter" class="org.apache.shiro.spring.web.ShiroFilterFactoryBean">
+        <property name="securityManager" ref="securityManager"/>
+        <property name="loginUrl" value="/error/index"/>
+        <property name="filters">
+            <map>
+                <entry key="platformLogin" value-ref="platformUserAuthFilter"/>
+                <entry key="companyLogin" value-ref="companyUserAuthFilter"/>
+            </map>
+        </property>
+        <property name="filterChainDefinitions">
+            <value>
+                /common/** = anon
+                /help/** = anon
+                /base/** = anon
+                /error/index = anon
+                /pIndex = anon
+                /cIndex = anon
+                /upfile/** = anon
+                /platform/index = anon
+                /platform/login = anon
+                /company/index = anon
+                /company/login = anon
+                /v2/api-docs = platformLogin
+                /swagger-resources/** = platformLogin
+                /platform/** = platformLogin
+                /company/** = companyLogin
+            </value>
+        </property>
+    </bean>
+    <!-- 自定义用户登录验证-->
+    <bean id="platformUserAuthFilter" class="com.rent.common.shiro.PlatformUserAuthenticationFilter">
+        <property name="loginUrl" value="/platform/index"/>
+    </bean>
+    <bean id="companyUserAuthFilter" class="com.rent.common.shiro.CompanyUserAuthenticationFilter">
+        <property name="loginUrl" value="/company/index"/>
+    </bean>
+    <!-- 用户授权信息Cache, 采用EhCache -->
+    <bean id="shiroEhcacheManager" class="org.apache.shiro.cache.ehcache.EhCacheManager">
+        <property name="cacheManagerConfigFile" value="classpath:ehcache.xml"/>
+    </bean>
+
+    <!-- 保证实现了Shiro内部lifecycle函数的bean执行 -->
+    <bean id="lifecycleBeanPostProcessor" class="org.apache.shiro.spring.LifecycleBeanPostProcessor"/>
+
+    <!-- AOP式方法级权限检查  -->
+    <bean class="org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator"
+          depends-on="lifecycleBeanPostProcessor">
+        <property name="proxyTargetClass" value="true"/>
+    </bean>
+    <bean class="org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor">
+        <property name="securityManager" ref="securityManager"/>
+    </bean>
+    <!--定时清理僵尸session，Shiro会启用一个后台守护线程定时执行清理操作，用户直接关闭浏览器造成的孤立会话-->
+    <bean id="sessionValidationScheduler"
+          class="org.apache.shiro.session.mgt.ExecutorServiceSessionValidationScheduler">
+        <property name="interval" value="3600000"/>
+        <property name="sessionManager" ref="sessionManager"/>
+    </bean>
+</beans>

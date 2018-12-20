@@ -1,0 +1,465 @@
+.Main {
+	MARGIN: 0px auto; WIDTH: 960px; HEIGHT: auto
+}
+.right {
+	FLOAT: right; WIDTH: 240px
+}
+.house_attribute {
+	BACKGROUND: #fffef5; HEIGHT: auto; TEXT-ALIGN: left
+}
+.attribute_title {
+	DISPLAY: inline; FLOAT: left; MARGIN-LEFT: 35px; WIDTH: 42px
+}
+.attribute_title1 {
+	DISPLAY: inline; FLOAT: left; MARGIN-LEFT: 35px; WIDTH: 102px
+}
+.attribute {
+	TEXT-ALIGN: left
+}
+.attribute1 {
+	TEXT-ALIGN: left
+}
+.attribute2 {
+	TEXT-ALIGN: left
+}
+.attribute2 {
+	BORDER-RIGHT: #f5ad49 1px solid; BORDER-TOP: #f5ad49 1px solid; PADDING-LEFT: 10px; MARGIN: 0px 10px 5px 65px; BORDER-LEFT: #f5ad49 1px solid; BORDER-BOTTOM: #f5ad49 1px solid
+}
+.attribute SPAN {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; BACKGROUND: #4598d2; PADDING-BOTTOM: 0px; MARGIN: 0px 2px; COLOR: #fff; PADDING-TOP: 2px
+}
+.attribute2 SPAN {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; BACKGROUND: #4598d2; PADDING-BOTTOM: 0px; MARGIN: 0px 2px; COLOR: #fff; PADDING-TOP: 2px
+}
+.attribute A {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 0px; MARGIN: 0px 2px; PADDING-TOP: 2px
+}
+.attribute1 A {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 0px; MARGIN: 0px 2px; PADDING-TOP: 2px
+}
+.attribute2 A {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 0px; MARGIN: 0px 2px; PADDING-TOP: 2px
+}
+.attribute2 A {
+	WHITE-SPACE: nowrap
+}
+.area_now {
+	BACKGROUND: #4598d2; COLOR: #fff; TEXT-DECORATION: none
+}
+.area_ago {
+	BACKGROUND: #4598d2; COLOR: #fff; TEXT-DECORATION: none
+}
+.attribute_box {
+	WIDTH: 900px
+}
+.house_box {
+	PADDING-TOP: 5px; BORDER-BOTTOM: #e7cdae 1px dashed; HEIGHT: 23px
+}
+.house_box1 {
+	PADDING-TOP: 5px; BORDER-BOTTOM: #e7cdae 1px dashed; HEIGHT: auto
+}
+.subway {
+	MARGIN-TOP: 5px; BACKGROUND: url(../image/subway_btn.gif) no-repeat 10px 3px
+}
+.house_boxR {
+	HEIGHT: 10px
+}
+.house_boxL {
+	HEIGHT: 10px
+}
+.house_boxR {
+	MARGIN-BOTTOM: 1px
+}
+.house_boxLL {
+	BACKGROUND: url(../image/area_bg.gif) no-repeat left top; FLOAT: left; WIDTH: 5px; HEIGHT: 10px
+}
+.house_boxLR {
+	BACKGROUND: url(../image/area_bg.gif) no-repeat right top; FLOAT: left; WIDTH: 5px; HEIGHT: 10px
+}
+.house_boxLC {
+	BORDER-TOP: #eed97c 1px solid; BACKGROUND: url(../image/area_bg) no-repeat; FLOAT: left; WIDTH: 950px; HEIGHT: 10px
+}
+.house_boxC {
+	BORDER-RIGHT: #eed97c 1px solid; BACKGROUND: url(../image/area_btn.gif) no-repeat 10px 3px; BORDER-LEFT: #eed97c 1px solid; HEIGHT: auto
+}
+.house_boxRL {
+	BACKGROUND: url(../image/area_bg.gif) no-repeat left bottom; FLOAT: left; WIDTH: 5px; HEIGHT: 10px
+}
+.house_boxRR {
+	BACKGROUND: url(../image/area_bg.gif) no-repeat right bottom; FLOAT: left; WIDTH: 5px; HEIGHT: 10px
+}
+.house_boxRC {
+	BACKGROUND: url(../image/area_bg) no-repeat; FLOAT: left; WIDTH: 950px; BORDER-BOTTOM: #eed97c 1px solid; HEIGHT: 10px
+}
+.find_condition {
+	MARGIN-TOP: 10px; PADDING-LEFT: 20px; HEIGHT: 35px
+}
+.find_condition BUTTON {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BACKGROUND: url(../image/condition_btn.gif) no-repeat right bottom; MARGIN-LEFT: 15px; BORDER-LEFT: medium none; WIDTH: 120px; CURSOR: pointer; BORDER-BOTTOM: medium none; HEIGHT: 25px
+}
+.find_condition A {
+	PADDING-LEFT: 16px; COLOR: #fe5a01
+}
+.find_condition A:hover {
+	TEXT-DECORATION: none
+}
+SPAN.close {
+	FONT-WEIGHT: bold; FONT-SIZE: 8px; MARGIN: 0px 2px; FONT-FAMILY: Tahoma,Arial,sans-serif
+}
+.clear {
+	CLEAR: both; FONT-SIZE: 0px; LINE-HEIGHT: 0
+}
+.left {
+	FLOAT: left; WIDTH: 710px; HEIGHT: auto
+}
+.search_top {
+	BACKGROUND: url(../image/search_topBG.gif) repeat-x left bottom; HEIGHT: 35px
+}
+.search_top UL {
+	FLOAT: left
+}
+.search_top LI {
+	PADDING-LEFT: 15px; FLOAT: left; MARGIN-RIGHT: 2px; POSITION: relative
+}
+.search_top LI SPAN {
+	DISPLAY: block; LINE-HEIGHT: 20px
+}
+.search_top UL A {
+	PADDING-RIGHT: 15px; DISPLAY: block; PADDING-LEFT: 15px; PADDING-BOTTOM: 0px; MARGIN-LEFT: -15px; COLOR: #000000; PADDING-TOP: 0px
+}
+.search_top UL A:link {
+	PADDING-RIGHT: 15px; DISPLAY: block; PADDING-LEFT: 15px; PADDING-BOTTOM: 0px; MARGIN-LEFT: -15px; COLOR: #000000; PADDING-TOP: 0px
+}
+.search_top UL A:active {
+	PADDING-RIGHT: 15px; DISPLAY: block; PADDING-LEFT: 15px; PADDING-BOTTOM: 0px; MARGIN-LEFT: -15px; COLOR: #000000; PADDING-TOP: 0px
+}
+.search_top LI.tab_current A {
+	PADDING-RIGHT: 13px; PADDING-LEFT: 13px; FONT-WEIGHT: bold; PADDING-BOTTOM: 0px; COLOR: #ffffff; PADDING-TOP: 0px
+}
+.search_top LI.tab_current A:active {
+	PADDING-RIGHT: 13px; PADDING-LEFT: 13px; FONT-WEIGHT: bold; PADDING-BOTTOM: 0px; COLOR: #ffffff; PADDING-TOP: 0px
+}
+.search_top LI.tab_current A:hover {
+	PADDING-RIGHT: 13px; PADDING-LEFT: 13px; FONT-WEIGHT: bold; PADDING-BOTTOM: 0px; COLOR: #ffffff; PADDING-TOP: 0px
+}
+.search_top LI.tab_current A:visited {
+	PADDING-RIGHT: 13px; PADDING-LEFT: 13px; FONT-WEIGHT: bold; PADDING-BOTTOM: 0px; COLOR: #ffffff; PADDING-TOP: 0px
+}
+.tab_current SPAN {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(../image/tab_current.gif) repeat-x right top; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+.tab_other SPAN {
+	BACKGROUND: url(../image/tab_listbg.gif) repeat-x right top; PADDING-TOP: 3px
+}
+.tab_current {
+	MARGIN-TOP: 6px; BACKGROUND: url(../image/tab_current.gif) repeat-x left top; HEIGHT: 29px
+}
+.tab_other {
+	MARGIN-TOP: 9px; BACKGROUND: url(../image/tab_listbg.gif) repeat-x left top; HEIGHT: 25px
+}
+.map {
+	MARGIN-TOP: 9px; BACKGROUND: url(../image/map_bg.gif) no-repeat left top; HEIGHT: 25px
+}
+.map SPAN {
+	BACKGROUND: url(../image/map_bg.gif) no-repeat right top; PADDING-TOP: 3px
+}
+.search_top A:hover {
+	TEXT-DECORATION: none
+}
+.tab_other A:hover {
+	COLOR: #fa4d09; TEXT-DECORATION: none
+}
+.link_dark A {
+	COLOR: #333333
+}
+.search_bottom {
+	BORDER-RIGHT: #cfcfcf 1px solid; BORDER-TOP: #cfcfcf 1px solid; BORDER-LEFT: #cfcfcf 1px solid; BORDER-BOTTOM: #cfcfcf 1px solid; HEIGHT: 30px
+}
+.taxis {
+	MARGIN-TOP: 3px; PADDING-LEFT: 5px; FLOAT: left; POSITION: relative
+}
+.taxis slect {
+	MARGIN-TOP: 3px
+}
+.taxis2 {
+	BACKGROUND: url(../image/taxis_btn.gif) no-repeat 30px 2px; COLOR: #222222
+}
+.taxis1 {
+	BACKGROUND: url(../image/price_up.gif) no-repeat; COLOR: #222222
+}
+.taxis3 {
+	BACKGROUND: url(../image/price_down.gif) no-repeat; COLOR: #222222
+}
+.search_bottom P {
+	FLOAT: left
+}
+.search_bottom A {
+	PADDING-RIGHT: 10px; DISPLAY: block; FLOAT: left; WIDTH: 35px; HEIGHT: 28px
+}
+.house_total {
+	FLOAT: right
+}
+.rent_filter {
+	MARGIN-TOP: 10px; Z-INDEX: 20; MARGIN-LEFT: 35px; POSITION: relative
+}
+#list_box LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 2px; PADDING-BOTTOM: 8px; MARGIN-LEFT: 1px; OVERFLOW: hidden; WIDTH: 705px; PADDING-TOP: 8px; BORDER-BOTTOM: #599de1 1px dashed; HEIGHT: auto
+}
+#list_box LI DIV {
+	FLOAT: left; VERTICAL-ALIGN: top
+}
+.photo {
+	WIDTH: 110px; MARGIN-RIGHT: 10px; PADDING-TOP: 5px
+}
+.photo IMG {
+	BORDER-RIGHT: #dddddd 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #dddddd 1px solid; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; BORDER-LEFT: #dddddd 1px solid; WIDTH: 100px; PADDING-TOP: 2px; BORDER-BOTTOM: #dddddd 1px solid; HEIGHT: 75px
+}
+.area {
+	WIDTH: 65px; PADDING-TOP: 35px; TEXT-ALIGN: right
+}
+.price {
+	FONT-SIZE: 14px; WIDTH: 120px; COLOR: #cf7205; PADDING-TOP: 35px; FONT-FAMILY: Tahoma,Arial; TEXT-ALIGN: right
+}
+.broker {
+	COLOR: #808080
+}
+.information {
+	WIDTH: 380px; TEXT-ALIGN: left
+}
+.information H4 {
+	FONT-SIZE: 14px
+}
+.information ADDRESS {
+	FONT-STYLE: normal
+}
+.tags {
+	MARGIN-LEFT: 20px; WIDTH: 60px; PADDING-TOP: 30px; HEIGHT: 70px; TEXT-ALIGN: left
+}
+.house_total STRONG {
+	COLOR: #ff7200
+}
+.house_totalb {
+	FLOAT: left
+}
+.house_totalb STRONG {
+	COLOR: #ff7200
+}
+.house_total {
+	PADDING-RIGHT: 10px; MARGIN-TOP: 5px; COLOR: #6d6b69
+}
+.pages_box {
+	WIDTH: 710px; HEIGHT: 50px
+}
+.rent_info {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; WIDTH: 705px; PADDING-TOP: 5px; BORDER-BOTTOM: #eeeeee 1px solid; HEIGHT: 25px
+}
+.rent_info:hover {
+	BACKGROUND: #e2f0fd
+}
+.rent_info_dt {
+	FONT-SIZE: 14px; FLOAT: left; width:320px; HEIGHT: auto; TEXT-ALIGN: left
+}
+A.list_title:link {
+	COLOR: #0000cc
+}
+A.list_title:hover {
+	COLOR: #fa4d09; TEXT-DECORATION: underline
+}
+A.list_title:visited {
+	COLOR: #0000cc
+}
+.rent_info_dr {
+	FONT-SIZE: 12px; FLOAT: left;  COLOR: #333; TEXT-ALIGN: right
+}
+.rent_info_da {
+	FONT-SIZE: 12px; FLOAT: left; width: 140px;  COLOR: #333; TEXT-ALIGN: right
+}
+.rent_info_dd {
+	FONT-SIZE: 12px; FLOAT: left; width: 240px; COLOR: #333; TEXT-ALIGN: right
+}
+.rent_info_ds {
+	FONT-SIZE: 12px; FLOAT: left; width:300px; COLOR: #333; TEXT-ALIGN: right
+}
+.buy_info {
+	WIDTH: 700px; HEIGHT: 30px
+}
+.buy_info DT {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FLOAT: left; PADDING-BOTTOM: 5px; WIDTH: 560px; PADDING-TOP: 5px; TEXT-ALIGN: left
+}
+.buy_info DD {
+	FLOAT: left; WIDTH: 70px; PADDING-TOP: 5px
+}
+.list_time {
+	COLOR: #666666
+}
+.orange {
+	COLOR: #ea6200
+}
+.img_number {
+	BORDER-RIGHT: #0e8108 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #0e8108 1px solid; DISPLAY: inline-block; PADDING-LEFT: 1px; BACKGROUND: #6eb00e; PADDING-BOTTOM: 1px; MARGIN: 0px 3px 1px; VERTICAL-ALIGN: middle; OVERFLOW: hidden; BORDER-LEFT: #0e8108 1px solid; COLOR: #ffffff; LINE-HEIGHT: 12px; PADDING-TOP: 1px; BORDER-BOTTOM: #0e8108 1px solid; HEIGHT: 12px
+}
+.broker_color {
+	BORDER-RIGHT: #b2cf13 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #b2cf13 1px solid; DISPLAY: inline-block; PADDING-LEFT: 1px; BACKGROUND: #cff115; PADDING-BOTTOM: 1px; MARGIN: 0px 3px 1px; VERTICAL-ALIGN: middle; OVERFLOW: hidden; BORDER-LEFT: #b2cf13 1px solid; COLOR: #333333; LINE-HEIGHT: 12px; PADDING-TOP: 1px; BORDER-BOTTOM: #b2cf13 1px solid; HEIGHT: 12px
+}
+.adds {
+	COLOR: #676461
+}
+.adds:hover {
+	COLOR: #333333
+}
+.list_time {
+	COLOR: #666666
+}
+.inputprice {
+	WIDTH: 34px
+}
+.price_focus {
+	BORDER-RIGHT: #c1d8f8 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #c1d8f8 1px solid; PADDING-LEFT: 5px; FONT-SIZE: 12px; Z-INDEX: -10; BACKGROUND: #ffffff; LEFT: 40px; PADDING-BOTTOM: 3px; BORDER-LEFT: #c1d8f8 1px solid; WIDTH: 95px; COLOR: #cccccc; PADDING-TOP: 5px; BORDER-BOTTOM: #c1d8f8 1px solid; POSITION: absolute; TOP: 0px; TEXT-ALIGN: right
+}
+.buy_focus {
+	BORDER-RIGHT: #c1d8f8 1px solid; BORDER-TOP: #c1d8f8 1px solid; FONT-SIZE: 12px; Z-INDEX: -1; BACKGROUND: #ffffff; LEFT: 30px; BORDER-LEFT: #c1d8f8 1px solid; WIDTH: 118px; COLOR: #cccccc; BORDER-BOTTOM: #c1d8f8 1px solid; POSITION: absolute; TOP: 0px; TEXT-ALIGN: right
+}
+.buy_focus1 {
+	BORDER-RIGHT: #c1d8f8 1px solid; BORDER-TOP: #c1d8f8 1px solid; FONT-SIZE: 12px; Z-INDEX: -1; BACKGROUND: #ffffff; LEFT: 185px; BORDER-LEFT: #c1d8f8 1px solid; WIDTH: 118px; COLOR: #cccccc; BORDER-BOTTOM: #c1d8f8 1px solid; POSITION: absolute; TOP: 0px; TEXT-ALIGN: right
+}
+.multi_pic {
+	PADDING-BOTTOM: 5px; WIDTH: 235px; PADDING-TOP: 5px; HEIGHT: 65px
+}
+.multi_pic_l {
+	FLOAT: left; WIDTH: 95px
+}
+.multi_pic_r {
+	FLOAT: left; WIDTH: 140px; TEXT-ALIGN: left
+}
+.pay_1 {
+	FONT-WEIGHT: bold; COLOR: #eb6100
+}
+.pay_2 {
+	COLOR: #eb6100
+}
+.transactions {
+	PADDING-TOP: 10px; HEIGHT: 35px
+}
+.sell {
+	BACKGROUND: url(../image/sale_btn.gif) no-repeat left bottom
+}
+.buy {
+	BACKGROUND: url(../image/buy_btn.gif) no-repeat left bottom
+}
+.text_formata {
+	BACKGROUND: url(../image/text_format.gif) no-repeat left top
+}
+.text_formata1 {
+	BACKGROUND: url(../image/text_formata1.gif) no-repeat left top
+}
+.text_formatb {
+	BACKGROUND: url(../image/text_formatb.gif) no-repeat left top
+}
+.text_formatb1 {
+	BACKGROUND: url(../image/text_formatb2.gif) no-repeat left top
+}
+.transactions A {
+	FONT-WEIGHT: bold; FLOAT: left; WIDTH: 118px; COLOR: #504e4d; HEIGHT: 35px
+}
+#rent_price {
+	COLOR: #cf7205
+}
+#hz_title {
+	WIDTH: 450px
+}
+#hz_price {
+	WIDTH: 120px; COLOR: #cf7205
+}
+#hz_shi {
+	WIDTH: 40px
+}
+.look_house {
+	BORDER-RIGHT: #f4d1ac 1px solid; BORDER-TOP: #f4d1ac 1px solid; MARGIN-TOP: 10px; BORDER-LEFT: #f4d1ac 1px solid; BORDER-BOTTOM: #f4d1ac 1px solid; HEIGHT: auto
+}
+.look_house UL {
+	PADDING-LEFT: 20px; TEXT-ALIGN: left
+}
+.look_house H5 {
+	PADDING-LEFT: 10px; FONT-SIZE: 12px; PADDING-TOP: 5px; TEXT-ALIGN: left
+}
+.eeju_home {
+	MARGIN-TOP: 10px
+}
+.look_house EM {
+	FONT-STYLE: normal
+}
+.eeju_home H5 {
+	PADDING-LEFT: 25px; FONT-SIZE: 12px; PADDING-TOP: 7px; TEXT-ALIGN: left
+}
+.right_title1 {
+	BACKGROUND: url(../image/look_bg.gif) repeat-x left top; HEIGHT: 30px
+}
+.right_title2 {
+	BACKGROUND: url(../image/eeju_home.gif) no-repeat left bottom; HEIGHT: 30px
+}
+.eeju_home UL {
+	BACKGROUND: url(../image/right_boxbg.gif) repeat-y; PADDING-TOP: 8px; TEXT-ALIGN: left
+}
+.right_bottombg {
+	FONT-SIZE: 0px; BACKGROUND: url(../image/rightB_bg.gif) no-repeat left top; HEIGHT: 5px
+}
+.eeju_home UL LI {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 20px; BACKGROUND: url(../image/point.gif) no-repeat 10px 7px
+}
+.eeju_home UL LI A {
+	COLOR: #424344
+}
+.buy_list_title {
+	FONT-SIZE: 14px
+}
+.ts_msg {
+	MARGIN: 10px; BACKGROUND-COLOR: #ffffff
+}
+.eeju_corp {
+	MARGIN: 10px auto 0px; WIDTH: 960px; HEIGHT: auto
+}
+.eeju_corppic {
+	FLOAT: left; WIDTH: 150px
+}
+.eeju_corppic IMG {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; WIDTH: 120px; PADDING-TOP: 2px; HEIGHT: 60px
+}
+.eeju_corpC {
+	BORDER-RIGHT: #eed97c 1px solid; MARGIN: 0px auto; OVERFLOW: hidden; BORDER-LEFT: #eed97c 1px solid; WIDTH: 958px; HEIGHT: auto
+}
+.eeju_corpC H5 {
+	PADDING-LEFT: 25px; FONT-SIZE: 12px; PADDING-BOTTOM: 3px; TEXT-ALIGN: left
+}
+.eeju_corpC UL {
+	PADDING-LEFT: 22px
+}
+.eeju_corpT {
+	HEIGHT: 10px
+}
+.eeju_corpB {
+	HEIGHT: 10px
+}
+.eeju_corpT {
+	MARGIN-TOP: 1px
+}
+.eeju_corpB {
+	MARGIN-BOTTOM: 1px
+}
+.eeju_corpTL {
+	BACKGROUND: url(../image/area_bg.gif) no-repeat left top; FLOAT: left; WIDTH: 5px; HEIGHT: 10px
+}
+.eeju_corpTR {
+	BACKGROUND: url(../image/area_bg.gif) no-repeat right top; FLOAT: left; WIDTH: 5px; HEIGHT: 10px
+}
+.eeju_corpTC {
+	BORDER-TOP: #eed97c 1px solid; BACKGROUND: url(../image/area_bg) no-repeat; FLOAT: left; WIDTH: 950px; HEIGHT: 10px
+}
+.eeju_corpBL {
+	BACKGROUND: url(../image/area_bg.gif) no-repeat left bottom; FLOAT: left; WIDTH: 5px; HEIGHT: 10px
+}
+.eeju_corpBR {
+	BACKGROUND: url(../image/area_bg.gif) no-repeat right bottom; FLOAT: left; WIDTH: 5px; HEIGHT: 10px
+}
+.eeju_corpBC {
+	BACKGROUND: url(../image/area_bg) no-repeat; FLOAT: left; WIDTH: 950px; BORDER-BOTTOM: #eed97c 1px solid; HEIGHT: 10px
+}

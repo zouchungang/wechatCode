@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context-4.3.xsd
+        http://www.springframework.org/schema/mvc
+        http://www.springframework.org/schema/mvc/spring-mvc-4.3.xsd
+        http://www.springframework.org/schema/aop
+      	http://www.springframework.org/schema/aop/spring-aop-4.3.xsd">
+
+    <!-- 启动自动扫描该包下所有的Bean(例如@Controller) -->
+    <context:component-scan base-package="com.rent"/>
+    <!-- 第一个GroupTemplate，模板放在Webapp下 -->
+    <bean name="beetlConfig" class="org.beetl.ext.spring.BeetlGroupUtilConfiguration"
+          init-method="init">
+        <property name="configFileResource" value="/WEB-INF/beetl.properties"/>
+    </bean>
+    <!-- Beetl视图解析器1 -->
+    <bean name="beetlViewResolver" class="org.beetl.ext.spring.BeetlSpringViewResolver">
+        <!-- 多视图解析器，需要设置viewNames和order -->
+        <property name="viewNames">
+            <list>
+                <value>/template/**</value>
+                <value>/help/**</value>
+            </list>
+        </property>
+        <property name="contentType" value="text/html;charset=UTF-8"/>
+        <property name="order" value="0"/>
+        <!-- 多GroupTemplate，需要指定使用的bean -->
+        <property name="config" ref="beetlConfig"/>
+        <property name="prefix" value="/"/>
+        <property name="suffix" value=".html"/>
+    </bean>
+    <!-- json 视图 -->
+    <bean
+            class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter">
+        <property name="messageConverters">
+            <list>
+                <ref bean="jsonConverter"/>
+                <!-- 此处配置主要是为了下载文件的时候防止压缩，导致的文件无法正常打开-->
+                <bean class="org.springframework.http.converter.ByteArrayHttpMessageConverter"/>
+            </list>
+        </property>
+    </bean>
+    <bean id="jsonConverter"
+          class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter">
+        <property name="supportedMediaTypes">
+            <list>
+                <value>application/json;charset=UTF-8</value>
+            </list>
+        </property>
+        <!--<property name="objectMapper"> <bean class="com.fasterxml.jackson.databind.ObjectMapper">
+            <property name="serializationInclusion"> <value type="com.fasterxml.jackson.annotation.JsonInclude.Include">NON_NULL</value>
+            </property> </bean> </property> -->
+    </bean>
+    <bean
+            class="org.springframework.web.servlet.view.ContentNegotiatingViewResolver">
+        <property name="order" value="1"/>
+        <property name="viewResolvers">
+            <list>
+                <bean class="org.springframework.web.servlet.view.UrlBasedViewResolver">
+                    <property name="viewClass"
+                              value="org.springframework.web.servlet.view.JstlView"></property>
+                    <property name="prefix" value="/WEB-INF/view/"></property>
+                    <property name="suffix" value=".jsp"></property>
+                    <property name="contentType" value="text/html;charset=UTF-8"/>
+                </bean>
+            </list>
+        </property>
+        <property name="defaultViews">
+            <list>
+                <bean
+                        class="org.springframework.web.servlet.view.json.MappingJackson2JsonView"/>
+            </list>
+        </property>
+    </bean>
+    <!--bean的名称必须定义为messageSource -->
+    <bean id="messageSource"
+          class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
+        <property name="defaultEncoding">
+            <value>UTF-8</value>
+        </property>
+        <property name="fallbackToSystemLocale">
+            <value>false</value>
+        </property>
+        <property name="basename">
+            <!-- 前面的是包名，messages是配置文件的前缀 -->
+            <value>classpath:i18n/messages</value>
+        </property>
+    </bean>
+    <!-- SpringMVC上传文件时，需要配置MultipartResolver处理器 -->
+    <bean id="multipartResolver"
+          class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        <!-- 指定所上传文件的总大小不能超过200KB。注意maxUploadSize属性的限制不是针对单个文件，而是所有文件的容量之和 -->
+        <property name="maxUploadSize" value="20480000000"/>
+    </bean>
+
+    <!-- SpringMVC在超出上传文件限制时，会抛出org.springframework.web.multipart.MaxUploadSizeExceededException -->
+    <!-- 该异常是SpringMVC在检查上传的文件信息时抛出来的，而且此时还没有进入到Controller方法中 -->
+    <bean id="exceptionResolver"
+          class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver">
+        <property name="exceptionMappings">
+            <props>
+                <!-- 遇到MaxUploadSizeExceededException异常时，自动跳转到/WEB-INF/view/error_fileupload.jsp页面 -->
+                <prop
+                        key="org.springframework.web.multipart.MaxUploadSizeExceededException">help/500
+                </prop>
+            </props>
+        </property>
+    </bean>
+    <bean id="druid-stat-interceptor" class="com.alibaba.druid.support.spring.stat.DruidStatInterceptor"/>
+    <bean id="druid-stat-pointcut" class="org.springframework.aop.support.JdkRegexpMethodPointcut" scope="prototype">
+        <property name="patterns">
+            <list>
+                <value>com.rent.*</value>
+            </list>
+        </property>
+    </bean>
+    <aop:config>
+        <aop:advisor advice-ref="druid-stat-interceptor" pointcut-ref="druid-stat-pointcut"/>
+    </aop:config>
+    <aop:aspectj-autoproxy proxy-target-class="true"/>
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <mvc:mapping path="/**"/>
+            <bean class="com.rent.common.interceptor.BaseInterceptor"/>
+        </mvc:interceptor>
+        <!-- 配置Token拦截器，防止用户重复提交数据 -->
+        <mvc:interceptor>
+            <mvc:mapping path="/**"/>
+            <bean class="com.rent.common.interceptor.TokenInterceptor"/>
+        </mvc:interceptor>
+    </mvc:interceptors>
+    <mvc:resources mapping="/favicon.ico" location="/favicon.ico"/>
+    <mvc:annotation-driven/>
+    <!-- 使用默认servlet处理静态文件，过滤掉js、image、css等静态文件不由DispatchServlet 处理 -->
+    <mvc:default-servlet-handler/>
+</beans>

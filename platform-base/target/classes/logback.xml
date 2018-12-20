@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 开发环境配置的日志 -->
+<configuration>
+    <appender name="stdout" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} - %msg%n</pattern>
+        </encoder>
+    </appender>
+    <appender name="logfile"
+              class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <File>${catalina.base}/logs/base.log</File>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <FileNamePattern>
+                ${catalina.base}/logs/base.%d{yyyy-MM-dd}.%i.log
+            </FileNamePattern>
+            <maxFileSize>100MB</maxFileSize>
+            <!-- keep 1 days worth of history -->
+            <MaxHistory>10</MaxHistory>
+        </rollingPolicy>
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <Pattern>
+                %d{yyyy-MM-dd HH:mm:ss} -%msg%n
+            </Pattern>
+        </layout>
+    </appender>
+    <appender name="platform"
+              class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <File>${catalina.base}/logs/base-platform.log</File>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <FileNamePattern>
+                ${catalina.base}/logs/base-platform.%d{yyyy-MM-dd}.%i.log
+            </FileNamePattern>
+            <maxFileSize>100MB</maxFileSize>
+            <!-- keep 1 days worth of history -->
+            <MaxHistory>10</MaxHistory>
+        </rollingPolicy>
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <Pattern>
+                %d{yyyy-MM-dd HH:mm:ss} -%msg%n
+            </Pattern>
+        </layout>
+    </appender>
+    <appender name="company"
+              class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <File>${catalina.base}/logs/base-company.log</File>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <FileNamePattern>
+                ${catalina.base}/logs/base-company.%d{yyyy-MM-dd}.%i.log
+            </FileNamePattern>
+            <maxFileSize>100MB</maxFileSize>
+            <!-- keep 1 days worth of history -->
+            <MaxHistory>10</MaxHistory>
+        </rollingPolicy>
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <Pattern>
+                %d{yyyy-MM-dd HH:mm:ss} -%msg%n
+            </Pattern>
+        </layout>
+    </appender>
+    <appender name="api"
+              class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <File>${catalina.base}/logs/base-api.log</File>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <FileNamePattern>
+                ${catalina.base}/logs/base-api.%d{yyyy-MM-dd}.%i.log
+            </FileNamePattern>
+            <maxFileSize>100MB</maxFileSize>
+            <!-- keep 1 days worth of history -->
+            <MaxHistory>10</MaxHistory>
+        </rollingPolicy>
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <Pattern>
+                %d{yyyy-MM-dd HH:mm:ss} -%msg%n
+            </Pattern>
+        </layout>
+    </appender>
+    <appender name="operation"
+              class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <File>${catalina.base}/logs/base-operation.log</File>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <FileNamePattern>
+                ${catalina.base}/logs/base-operation.%d{yyyy-MM-dd}.%i.log
+            </FileNamePattern>
+            <maxFileSize>100MB</maxFileSize>
+            <!-- keep 5 days worth of history -->
+            <MaxHistory>10</MaxHistory>
+        </rollingPolicy>
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <Pattern>
+                %d{yyyy-MM-dd HH:mm:ss} -%msg%n
+            </Pattern>
+        </layout>
+    </appender>
+    <logger name="com.rent.system" level="INFO" additivity="false">
+        <appender-ref ref="platform"/>
+    </logger>
+    <logger name="com.rent.company" level="INFO" additivity="false">
+        <appender-ref ref="company"/>
+    </logger>
+    <logger name="com.rent.api" level="INFO" additivity="false">
+        <appender-ref ref="api"/>
+    </logger>
+    <!-- 后台用户操作日志配置**additivity属性为false，表示此loger的打印信息不再向上级传递 -->
+    <logger name="com.rent.common.aspect" level="INFO" additivity="false">
+        <appender-ref ref="operation"/>
+    </logger>
+    <root level="INFO">
+        <appender-ref ref="stdout"/>
+    </root>
+</configuration>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link href="${staticCtx }/common/h5/css/bootstrap.min14ed.css?v=3.3.6" rel="stylesheet">
+    <link href="${staticCtx }/common/h5/css/font-awesome.min93e3.css?v=4.4.0" rel="stylesheet">
+    <link href="${staticCtx }/common/h5/css/animate.min.css" rel="stylesheet">
+    <link href="${staticCtx }/common/h5/css/style.min862f.css?v=4.1.0" rel="stylesheet">
+</head>
+<body class="gray-bg">
+<div class="row">
+    <div class="col-sm-12">
+        <div class="wrapper wrapper-content animated fadeInUp">
+            <div class="faq-item">
+                <div class="row">
+                    <div class="col-md-7">
+                        <a data-toggle="collapse" href="#faq1" class="faq-question">1. 什么是园门管理？</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div id="faq1" class="panel-collapse collapse in faq-answer">
+                            <p>
+                                1、园门管理是对景点内园门的基本信息进行设置，一个景点里可以设置多个园门。<br>
+                                2、在园门设置中，可以设置园门的名称、联系方式、地址、开启状态等信息。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 10px">
+                    <div class="col-md-7">
+                        <a data-toggle="collapse" href="#faq2" class="faq-question">2. 怎么进行园门管理？</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div id="faq2" class="panel-collapse collapse in faq-answer">
+                            <p>
+                                <h4>2.1 添加园门</h4>
+                                &emsp;&emsp;在页面左侧【景点名称】列表选中一个景点。点击【添加】按钮，在弹出的对页面里录入园门的基本信息，其中标注为（*）的信息，为必填项。<br>
+                                &emsp;&emsp;信息录入完成，点击【提交】按钮，保存园门信息。
+                                <h4>2.2 修改园门</h4>
+                                &emsp;&emsp;在【园门】列表点击一条园门信息，会自动选中该园门，然后点击列表上方【修改】按钮，在弹出的页面里录入需要修改的信息。<br>
+                                &emsp;&emsp;信息录入完成，点击【提交】按钮，保存修改后的园门信息。
+                                <h4>2.3 删除园门</h4>
+                                &emsp;&emsp;在【园门】列表点击一条园门信息，会自动选中该园门，然后点击列表上方【删除】按钮。<br>
+                                &emsp;&emsp;在弹出的对话框里点击【确定】按钮，删除园门。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 10px">
+                    <div class="col-md-7">
+                        <a data-toggle="collapse" href="#faq3" class="faq-question">3. 名词解释</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div id="faq3" class="panel-collapse collapse in faq-answer">
+                            <p>
+                            <h4>3.1 状态</h4>
+                            &emsp;&emsp;该选项设置为启用，则。。。。。设置为禁用则。。。。。。；<br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 10px">
+                    <div class="col-md-7">
+                        <a data-toggle="collapse" href="#faq4" class="faq-question">4. 备注</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div id="faq4" class="panel-collapse collapse in faq-answer">
+                            <p>
+                                1、在进行园门管理之前，需要先对景点信息进行添加。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="${staticCtx }/common/h5/js/jquery.min.js?v=2.1.4"></script>
+<script src="${staticCtx }/common/h5/js/bootstrap.min.js?v=3.3.6"></script>
+<script src="${staticCtx }/common/h5/js/content.min.js?v=1.0.0"></script>
+<script>
+    $(document).ready(function () {
+        $("#loading-example-btn").click(function () {
+            btn = $(this);
+            simpleLoad(btn, true);
+            simpleLoad(btn, false)
+        })
+    });
+
+    function simpleLoad(btn, state) {
+        if (state) {
+            btn.children().addClass("fa-spin");
+            btn.contents().last().replaceWith(" Loading")
+        } else {
+            setTimeout(function () {
+                btn.children().removeClass("fa-spin");
+                btn.contents().last().replaceWith(" Refresh")
+            }, 2000)
+        }
+    };
+</script>
+<script type="text/javascript" src="http://tajs.qq.com/stats?sId=9051096" charset="UTF-8"></script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link href="${staticCtx }/common/h5/css/bootstrap.min14ed.css?v=3.3.6" rel="stylesheet">
+    <link href="${staticCtx }/common/h5/css/font-awesome.min93e3.css?v=4.4.0" rel="stylesheet">
+    <link href="${staticCtx }/common/h5/css/animate.min.css" rel="stylesheet">
+    <link href="${staticCtx }/common/h5/css/style.min862f.css?v=4.1.0" rel="stylesheet">
+</head>
+<body class="gray-bg">
+<div class="row">
+    <div class="col-sm-12">
+        <div class="wrapper wrapper-content animated fadeInUp">
+            <div class="faq-item">
+                <div class="row">
+                    <div class="col-md-7">
+                        <a data-toggle="collapse" href="#faq1" class="faq-question">1. 什么是核销规则管理？</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div id="faq1" class="panel-collapse collapse in faq-answer">
+                            <p>
+                                1、核销规则管理是对景点内门票的验票规则信息进行设置，用来关联门票，一个门票只能关联一个验票规则。<br>
+                                2、在核销规则设置中，可以设置规则的名称、检票通行方式、检票控制方式、验证类型、文字提示方式、最大通行次数、语音提示方式、规则开始时间、规则结束时间等核销规则信息。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 10px">
+                    <div class="col-md-7">
+                        <a data-toggle="collapse" href="#faq2" class="faq-question">2. 怎么进行核销规则管理？</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div id="faq2" class="panel-collapse collapse in faq-answer">
+                            <p>
+                                <h4>2.1 添加门票核销规则</h4>
+                                &emsp;&emsp;点击【添加】按钮，在弹出的页面里录入核销规则的基本信息，其中标注为（*）的信息，为必填项。<br>
+                                &emsp;&emsp;信息录入完成，点击【提交】按钮，保存核销规则信息。
+                                <h4>2.2 修改门票核销规则</h4>
+                                &emsp;&emsp;在【核销规则】列表点击一条门票信息，会自动选中该规则，然后点击列表上方【修改】按钮，在弹出的对话框里录入需要修改的信息。<br>
+                                &emsp;&emsp;信息录入完成，点击【提交】按钮，保存修改后的核销规则信息。
+                                <h4>2.3 删除门票核销规则</h4>
+                                &emsp;&emsp;在【核销规则】列表点击一条门票信息，会自动选中该规则，然后点击列表上方【删除】按钮。<br>
+                                &emsp;&emsp;在弹出的对话框里点击【确定】按钮，删除规则。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 10px">
+                    <div class="col-md-7">
+                        <a data-toggle="collapse" href="#faq3" class="faq-question">3. 名词解释</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div id="faq3" class="panel-collapse collapse in faq-answer">
+                            <p>
+                            <h4>3.1 检票通行方式</h4>
+                            <h4>3.2 检票控制方式</h4>
+                            <h4>3.3 验证类型</h4>
+                            <h4>3.4 文字提示方式</h4>
+                            <h4>3.5 语音提示方式</h4>
+                            <h4>3.6 规则开始时间</h4>
+                            <h4>3.7 规则结束时间</h4>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 10px">
+                    <div class="col-md-7">
+                        <a data-toggle="collapse" href="#faq4" class="faq-question">4. 备注</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div id="faq4" class="panel-collapse collapse in faq-answer">
+                            <p>
+                                1、如果核销规则已经被某个门票使用，则该规则不能进行删除操作。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="${staticCtx }/common/h5/js/jquery.min.js?v=2.1.4"></script>
+<script src="${staticCtx }/common/h5/js/bootstrap.min.js?v=3.3.6"></script>
+<script src="${staticCtx }/common/h5/js/content.min.js?v=1.0.0"></script>
+<script>
+    $(document).ready(function () {
+        $("#loading-example-btn").click(function () {
+            btn = $(this);
+            simpleLoad(btn, true);
+            simpleLoad(btn, false)
+        })
+    });
+
+    function simpleLoad(btn, state) {
+        if (state) {
+            btn.children().addClass("fa-spin");
+            btn.contents().last().replaceWith(" Loading")
+        } else {
+            setTimeout(function () {
+                btn.children().removeClass("fa-spin");
+                btn.contents().last().replaceWith(" Refresh")
+            }, 2000)
+        }
+    };
+</script>
+<script type="text/javascript" src="http://tajs.qq.com/stats?sId=9051096" charset="UTF-8"></script>
+</body>
+</html>

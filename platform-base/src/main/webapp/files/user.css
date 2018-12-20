@@ -1,0 +1,1267 @@
+* {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H1 {
+	FONT-SIZE: 14px
+}
+H2 {
+	FONT-SIZE: 14px
+}
+H3 {
+	FONT-SIZE: 14px
+}
+H4 {
+	FONT-SIZE: 14px
+}
+H5 {
+	FONT-SIZE: 14px
+}
+H6 {
+	FONT-SIZE: 14px
+}
+IMG {
+	BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px
+}
+TABLE {
+	BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px
+}
+TD {
+	BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px
+}
+TH {
+	BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px
+}
+UL {
+	LIST-STYLE-TYPE: none
+}
+OL {
+	LIST-STYLE-TYPE: none
+}
+BODY {
+	FONT-FAMILY: Arial, Verdana, sans-serif; FONT-SIZE: 12px
+}
+#header {
+	POSITION: relative; MARGIN: 0px auto; WIDTH: 1000px; HEIGHT: 80px
+}
+.content {
+	MARGIN: 0px auto; WIDTH: 1000px
+}
+#left {
+	POSITION: relative; WIDTH: 180px; BACKGROUND: url(../images/left.gif) repeat-y; FLOAT: left
+}
+#right {
+	POSITION: relative; WIDTH: 805px; PADDING-RIGHT: 3px; BACKGROUND: #fafafa; FLOAT: right
+}
+#right1 {
+	POSITION: relative; WIDTH: 806px; BACKGROUND: #fafafa; FLOAT: right
+}
+#right5 {
+	POSITION: relative; WIDTH: 805px; PADDING-RIGHT: 3px; BACKGROUND: #f5f5f5; FLOAT: right
+}
+#footer {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 15px; LINE-HEIGHT: 18px; MARGIN: 0px auto; PADDING-LEFT: 0px; WIDTH: 1000px; PADDING-RIGHT: 0px; COLOR: #aaa; PADDING-TOP: 15px
+}
+.clear {
+	HEIGHT: 0px; CLEAR: both; FONT-SIZE: 1px
+}
+.align1 {
+	TEXT-ALIGN: left
+}
+.align2 {
+	TEXT-ALIGN: center
+}
+.align3 {
+	VERTICAL-ALIGN: top; PADDING-TOP: 15px
+}
+.align4 {
+	TEXT-ALIGN: right; PADDING-RIGHT: 30px
+}
+.width1 {
+	WIDTH: 30px
+}
+.width2 {
+	WIDTH: 80px
+}
+.width3 {
+	WIDTH: 170px
+}
+.width4 {
+	WIDTH: 60px
+}
+.width5 {
+	WIDTH: 180px
+}
+.width6 {
+	WIDTH: 600px
+}
+.width7 {
+	WIDTH: 300px
+}
+.width8 {
+	WIDTH: 140px
+}
+.width9 {
+	WIDTH: 400px
+}
+.width10 {
+	WIDTH: 270px
+}
+.width11 {
+	WIDTH: 200px
+}
+.width12 {
+	WIDTH: 430px
+}
+.width13 {
+	WIDTH: 120px
+}
+.width14 {
+	WIDTH: 210px
+}
+.width15 {
+	WIDTH: 50px
+}
+.width16 {
+	WIDTH: 460px
+}
+.width17 {
+	WIDTH: 556px
+}
+.text {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 4px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND: url(../images/text.gif) #fff repeat-x; COLOR: #666; FONT-SIZE: 14px; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 4px
+}
+.text1 {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND: url(../images/text.gif) repeat-x; COLOR: #666; FONT-SIZE: 14px; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 2px
+}
+.text2 {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; WIDTH: 334px; PADDING-RIGHT: 2px; PADDING-TOP: 2px
+}
+.link1 A {
+	COLOR: #5da238; TEXT-DECORATION: none
+}
+.link1 A:hover {
+	TEXT-DECORATION: underline
+}
+.link2 A {
+	COLOR: #3e3e3e; TEXT-DECORATION: none
+}
+.link2 A:hover {
+	TEXT-DECORATION: underline
+}
+.link3 {
+	COLOR: #3e3e3e
+}
+.link3:hover {
+	COLOR: #990
+}
+.color1 {
+	COLOR: #919191
+}
+.color2 {
+	COLOR: #3e3e3e
+}
+.color3 {
+	COLOR: #5ba238
+}
+.color4 {
+	COLOR: #ff4d02
+}
+.color5 {
+	COLOR: #666
+}
+.color6 {
+	COLOR: #9d9d9d
+}
+.color7 {
+	COLOR: #b5b5b5
+}
+.color8 {
+	COLOR: #ff4e00
+}
+.select {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; PADDING-TOP: 2px
+}
+.margin1 {
+	MARGIN-BOTTOM: 5px
+}
+.margin2 {
+	MARGIN-BOTTOM: 20px
+}
+.padding1 {
+	PADDING-LEFT: 10px
+}
+.padding2 {
+	PADDING-LEFT: 20px
+}
+.padding3 {
+	PADDING-TOP: 7px
+}
+.padding4 {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; PADDING-TOP: 2px
+}
+.padding5 {
+	PADDING-LEFT: 71px
+}
+.table .padding6 {
+	BACKGROUND: #fff; PADDING-TOP: 50px
+}
+#header H1 {
+	POSITION: absolute; TOP: 5px; LEFT: 0px
+}
+#subnav {
+	POSITION: absolute; TOP: 5px; RIGHT: 0px; WORD-SPACING: 3px
+}
+#subnav P {
+	PADDING-LEFT: 20px; FLOAT: left
+}
+#subnav A {
+	COLOR: #666
+}
+#subnav A:hover {
+	COLOR: red
+}
+#subnav SPAN {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; FLOAT: left; COLOR: #c0c0c0; PADDING-TOP: 0px
+}
+#subnav B {
+	COLOR: #ff5301
+}
+#subnav .home {
+	LINE-HEIGHT: 20px; PADDING-LEFT: 5px; FLOAT: left; HEIGHT: 15px
+}
+#subnav .favorite {
+	LINE-HEIGHT: 15px; PADDING-LEFT: 20px; BACKGROUND: url(../images/ico.gif) 0px -27px; FLOAT: left; HEIGHT: 15px
+}
+#subnav .note {
+	LINE-HEIGHT: 15px; PADDING-LEFT: 20px; BACKGROUND: url(../images/ico.gif) 0px -51px; FLOAT: left; HEIGHT: 15px
+}
+#subnav .help {
+	LINE-HEIGHT: 15px; PADDING-LEFT: 20px; BACKGROUND: url(../images/ico.gif) 0px -75px; FLOAT: left; HEIGHT: 15px
+}
+#topbtn {
+	POSITION: absolute; TEXT-ALIGN: center; LINE-HEIGHT: 21px; WIDTH: 212px; BACKGROUND: url(../images/topbtn.gif); HEIGHT: 21px; TOP: 32px; RIGHT: 0px; WORD-SPACING: 2px
+}
+.topbtn1 {
+	POSITION: absolute; WIDTH: 3px; BACKGROUND: url(../images/topbtn.gif) no-repeat 0px bottom; HEIGHT: 21px; TOP: 0px; LEFT: 0px
+}
+.topbtn2 {
+	POSITION: absolute; WIDTH: 3px; BACKGROUND: url(../images/topbtn.gif) no-repeat 0px -31px; HEIGHT: 21px; TOP: 0px; RIGHT: 0px
+}
+#topbtn A {
+	COLOR: #000; TEXT-DECORATION: none
+}
+#topbtn A:hover {
+	COLOR: red
+}
+#topbtn SPAN {
+	COLOR: #c0c0c0
+}
+#topbtn .user {
+	PADDING-RIGHT: 14px; BACKGROUND: url(../images/ico.gif) no-repeat 50px -108px
+}
+#path {
+	POSITION: absolute; BOTTOM: 10px; COLOR: #000; TOP: 50px; LEFT: 0px
+}
+#path A {
+	COLOR: #285bcc; TEXT-DECORATION: none
+}
+#path A:hover {
+	TEXT-DECORATION: underline
+}
+#path SPAN {
+	POSITION: relative; PADDING-RIGHT: 3px; COLOR: #285bcc; FONT-SIZE: 18px; TOP: 1px
+}
+#header .search {
+	POSITION: absolute; BOTTOM: 10px; RIGHT: 0px
+}
+#header .input {
+	POSITION: relative; PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; WIDTH: 434px; PADDING-RIGHT: 0px; BACKGROUND: url(../images/input.gif); FLOAT: left; HEIGHT: 29px; MARGIN-RIGHT: 6px; PADDING-TOP: 5px
+}
+#header .input1 {
+	POSITION: absolute; WIDTH: 2px; BACKGROUND: url(../images/input.gif) no-repeat 0px -44px; HEIGHT: 34px; TOP: 0px; LEFT: 0px
+}
+#header .input2 {
+	POSITION: absolute; WIDTH: 2px; BACKGROUND: url(../images/input.gif) no-repeat 0px bottom; HEIGHT: 34px; TOP: 0px; RIGHT: 0px
+}
+#header .menu {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; MARGIN-RIGHT: 2px; PADDING-TOP: 2px
+}
+#header .search .btn {
+	BORDER-RIGHT-WIDTH: 0px; WIDTH: 71px; BACKGROUND: url(../images/btn.gif); FLOAT: left; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 34px; BORDER-LEFT-WIDTH: 0px
+}
+#left H2 {
+	POSITION: relative; BACKGROUND: url(../images/left_h2.gif); HEIGHT: 25px
+}
+#left STRONG {
+	POSITION: absolute; WIDTH: 58px; DISPLAY: block; BACKGROUND: url(../images/left_strong.gif); HEIGHT: 15px; OVERFLOW: hidden; TOP: 5px; LEFT: 12px
+}
+#left H2 .adorn1 {
+	POSITION: absolute; WIDTH: 3px; BACKGROUND: url(../images/left_h2.gif) no-repeat 0px -35px; HEIGHT: 25px; TOP: 0px; LEFT: 0px
+}
+#left H2 .adorn2 {
+	POSITION: absolute; WIDTH: 3px; BACKGROUND: url(../images/left_h2.gif) no-repeat 0px bottom; HEIGHT: 25px; TOP: 0px; RIGHT: 0px
+}
+#left DL {
+	PADDING-BOTTOM: 8px; WIDTH: 180px
+}
+#left DT {
+	PADDING-BOTTOM: 8px; LINE-HEIGHT: 25px; PADDING-LEFT: 12px; WIDTH: 168px; PADDING-RIGHT: 0px; BACKGROUND: url(../images/left_dt.gif) no-repeat; HEIGHT: 27px; COLOR: #3e3e3e; FONT-WEIGHT: bold; PADDING-TOP: 0px
+}
+#left DD {
+	MARGIN: 0px auto; WIDTH: 176px
+}
+#left DD A {
+	LINE-HEIGHT: 26px; PADDING-LEFT: 10px; WIDTH: 166px; DISPLAY: block; HEIGHT: 26px; CURSOR: pointer; TEXT-DECORATION: none
+}
+#left DD .normal {
+	COLOR: #3d3d3d
+}
+#left DD .normal:hover {
+	BACKGROUND: url(../images/ico.gif) #fbe4db no-repeat 160px -572px; COLOR: #fd844e
+}
+#left DD .active {
+	BACKGROUND: url(../images/ico.gif) #fad2c0 no-repeat 160px -572px; COLOR: #fd844e; FONT-WEIGHT: 400
+}
+#left .pub {
+	PADDING-LEFT: 25px; DISPLAY: block; BACKGROUND: url(../images/write_pic.gif) no-repeat 0px 5px; HEIGHT: 26px
+}
+#left .ico1 {
+	PADDING-LEFT: 25px; DISPLAY: block; BACKGROUND: url(../images/ico.gif) no-repeat 0px -138px; HEIGHT: 26px
+}
+#left .ico2 {
+	PADDING-LEFT: 25px; DISPLAY: block; BACKGROUND: url(../images/ico.gif) no-repeat 0px -163px; HEIGHT: 26px
+}
+#left .ico3 {
+	PADDING-LEFT: 25px; DISPLAY: block; BACKGROUND: url(../images/ico.gif) no-repeat 0px -189px; HEIGHT: 26px
+}
+#left .ico4 {
+	PADDING-LEFT: 25px; DISPLAY: block; BACKGROUND: url(../images/ico.gif) no-repeat 0px -217px; HEIGHT: 26px
+}
+#left .ico5 {
+	PADDING-LEFT: 25px; DISPLAY: block; BACKGROUND: url(../images/ico.gif) no-repeat 0px -249px; HEIGHT: 26px
+}
+#left .ico6 {
+	PADDING-LEFT: 25px; DISPLAY: block; BACKGROUND: url(../images/ico.gif) no-repeat 0px -276px; HEIGHT: 26px
+}
+#left .ico7 {
+	PADDING-LEFT: 25px; DISPLAY: block; BACKGROUND: url(../images/ico.gif) no-repeat 0px -300px; HEIGHT: 26px
+}
+#left .ico8 {
+	PADDING-LEFT: 25px; DISPLAY: block; BACKGROUND: url(../images/ico.gif) no-repeat 0px -330px; HEIGHT: 26px
+}
+#left .ico9 {
+	PADDING-LEFT: 25px; DISPLAY: block; BACKGROUND: url(../images/ico.gif) no-repeat 0px -357px; HEIGHT: 26px
+}
+#left .ico10 {
+	PADDING-LEFT: 25px; DISPLAY: block; BACKGROUND: url(../images/ico.gif) no-repeat 0px -384px; HEIGHT: 26px
+}
+#left .ico11 {
+	PADDING-LEFT: 25px; DISPLAY: block; BACKGROUND: url(../images/ico.gif) no-repeat 0px -410px; HEIGHT: 26px
+}
+#left .ico12 {
+	PADDING-LEFT: 25px; DISPLAY: block; BACKGROUND: url(../images/ico.gif) no-repeat 0px -436px; HEIGHT: 26px
+}
+#left .ico13 {
+	PADDING-LEFT: 25px; DISPLAY: block; BACKGROUND: url(../images/ico.gif) no-repeat 0px -461px; HEIGHT: 26px
+}
+#left .ico14 {
+	PADDING-LEFT: 25px; DISPLAY: block; BACKGROUND: url(../images/ico.gif) no-repeat 0px -488px; HEIGHT: 26px
+}
+#left .ico15 {
+	PADDING-LEFT: 25px; DISPLAY: block; BACKGROUND: url(../images/ico.gif) no-repeat 0px -513px; HEIGHT: 26px
+}
+#left .ico16 {
+	PADDING-LEFT: 25px; DISPLAY: block; BACKGROUND: url(../images/ico.gif) no-repeat 0px -540px; HEIGHT: 26px
+}
+#left .ico17 {
+	PADDING-LEFT: 25px; DISPLAY: block; BACKGROUND: url(../images/ico.gif) no-repeat 0px -1613px; HEIGHT: 26px
+}
+#left .ico18 {
+	PADDING-LEFT: 25px; DISPLAY: block; BACKGROUND: url(../images/ico.gif) no-repeat 0px -1656px; HEIGHT: 26px
+}
+#left .ico19 {
+	PADDING-LEFT: 25px; DISPLAY: block; BACKGROUND: url(../images/ico.gif) no-repeat 0px -1909px; HEIGHT: 26px
+}
+#left .ico20 {
+	PADDING-LEFT: 25px; DISPLAY: block; BACKGROUND: url(../images/ico.gif) no-repeat 0px -1949px; HEIGHT: 26px
+}
+#left .ico22 {
+	PADDING-LEFT: 25px; DISPLAY: block; BACKGROUND: url(../images/ico.gif) no-repeat 0px -1923px; HEIGHT: 26px
+}
+#left .ico23 {
+	PADDING-LEFT: 25px; DISPLAY: block; BACKGROUND: url(../images/ico.gif) no-repeat 0px -1879px; HEIGHT: 26px
+}
+#left .ico24 {
+	PADDING-LEFT: 25px; DISPLAY: block; BACKGROUND: url(../images/ico.gif) no-repeat 0px -1090px; HEIGHT: 26px
+}
+.ico1#left {
+	PADDING-LEFT: 25px; BACKGROUND: url(../images/ico.gif) no-repeat 0px -163px
+}
+#left .adorn_bottom {
+	WIDTH: 180px; BACKGROUND: url(../images/adorn_bottom.gif); HEIGHT: 3px; OVERFLOW: hidden
+}
+.application {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BORDER-TOP: #e3e3e3 1px solid; PADDING-TOP: 10px
+}
+.application P {
+	MARGIN-BOTTOM: 10px; COLOR: #3e3e3e
+}
+.application A {
+	WIDTH: 153px; DISPLAY: block; BACKGROUND: url(../images/btn.gif) 0px -445px; HEIGHT: 42px
+}
+.adorn_right1 {
+	POSITION: absolute; WIDTH: 5px; BACKGROUND: url(../images/adorn_right.gif) no-repeat 0px 0px; HEIGHT: 5px; OVERFLOW: hidden; TOP: 0px; LEFT: 0px
+}
+.adorn_right2 {
+	POSITION: absolute; WIDTH: 5px; BACKGROUND: url(../images/adorn_right.gif) no-repeat 0px -5px; HEIGHT: 5px; OVERFLOW: hidden; TOP: 0px; RIGHT: 0px
+}
+.adorn_right3 {
+	POSITION: absolute; WIDTH: 5px; BOTTOM: 0px; BACKGROUND: url(../images/adorn_right.gif) no-repeat 0px -10px; HEIGHT: 5px; OVERFLOW: hidden; LEFT: 0px
+}
+.adorn_right4 {
+	POSITION: absolute; WIDTH: 5px; BOTTOM: 0px; BACKGROUND: url(../images/adorn_right.gif) no-repeat 0px -15px; HEIGHT: 5px; OVERFLOW: hidden; RIGHT: 0px
+}
+#html {
+	Z-INDEX: 10; POSITION: absolute; FILTER: alpha(opacity=40); WIDTH: 100%; BACKGROUND: #000; TOP: 0px; LEFT: 0px; -moz-opacity: 0.4; opacity: .40
+}
+.dialog_wrapper {
+	Z-INDEX: 20; POSITION: absolute; PADDING-BOTTOM: 4px; BACKGROUND: #595959; TOP: 50%; LEFT: 50%
+}
+.dialog_body {
+	BORDER-BOTTOM: #dadada 4px solid; BORDER-LEFT: #dadada 4px solid; PADDING-BOTTOM: 6px; PADDING-LEFT: 6px; PADDING-RIGHT: 6px; BACKGROUND: #fff; BORDER-TOP: #dadada 4px solid; BORDER-RIGHT: #dadada 4px solid; PADDING-TOP: 6px
+}
+.dialog_close_button {
+	POSITION: absolute; WIDTH: 21px; DISPLAY: block; BACKGROUND: url(../images/ico.gif) 0px -761px; HEIGHT: 21px; TOP: 10px; RIGHT: 10px
+}
+.dialog_close_button:hover {
+	BACKGROUND: url(../images/ico.gif) 0px -783px
+}
+.eject_con {
+	BORDER-BOTTOM: #e2e2e2 1px solid; BORDER-LEFT: #e2e2e2 1px solid; BORDER-TOP: #e2e2e2 0px solid; BORDER-RIGHT: #e2e2e2 1px solid
+}
+.eject_con .add {
+	PADDING-BOTTOM: 20px; PADDING-LEFT: 20px; WIDTH: 538px; PADDING-RIGHT: 20px; OVERFLOW: hidden; PADDING-TOP: 20px
+}
+.eject_con .add UL {
+	WIDTH: 538px; OVERFLOW: hidden
+}
+.eject_con .add LI {
+	PADDING-BOTTOM: 10px; WIDTH: 538px; FLOAT: left; OVERFLOW: hidden
+}
+.eject_con .add LI H3 {
+	LINE-HEIGHT: 26px; WIDTH: 80px; FLOAT: left; COLOR: #646665; FONT-SIZE: 12px; FONT-WEIGHT: normal
+}
+.eject_con .add LI P {
+	FLOAT: left
+}
+.eject_con .add LI P SPAN {
+	PADDING-LEFT: 10px; COLOR: #b4b4b4
+}
+.eject_con .add .submit {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 80px; WIDTH: 458px; PADDING-RIGHT: 0px; PADDING-TOP: 10px
+}
+.eject_con .add .submit .btn {
+	BORDER-RIGHT-WIDTH: 0px; WIDTH: 120px; BACKGROUND: url(../images/btn.gif) no-repeat 0px -253px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 32px; COLOR: #3f3d3e; BORDER-LEFT-WIDTH: 0px; CURSOR: pointer; FONT-WEIGHT: bold
+}
+.detail {
+	PADDING-BOTTOM: 1px; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; PADDING-TOP: 1px
+}
+.detail .handle {
+	PADDING-BOTTOM: 15px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; PADDING-TOP: 15px
+}
+.detail .handle P {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 5px
+}
+.detail .handle P STRONG {
+	COLOR: #ff4e00
+}
+.detail .handle P .num {
+	COLOR: #5aa337
+}
+.detail .handle P .time {
+	COLOR: #919191
+}
+.detail .handle P .btn {
+	BORDER-RIGHT-WIDTH: 0px; WIDTH: 53px; BACKGROUND: url(../images/btn.gif) no-repeat 0px -335px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 22px; COLOR: #3e3e3c; FONT-SIZE: 12px; BORDER-LEFT-WIDTH: 0px
+}
+.detail .handle P .btn1 {
+	BORDER-RIGHT-WIDTH: 0px; WIDTH: 68px; BACKGROUND: url(../images/btn.gif) no-repeat 0px -365px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 22px; COLOR: #3e3e3c; FONT-SIZE: 12px; BORDER-LEFT-WIDTH: 0px
+}
+.detail H2 {
+	LINE-HEIGHT: 26px; PADDING-LEFT: 10px; BACKGROUND: #eee; HEIGHT: 26px; COLOR: #3e3e3e
+}
+.detail DL {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 20px; PADDING-LEFT: 15px; WIDTH: 346px; PADDING-RIGHT: 15px; OVERFLOW: hidden; PADDING-TOP: 15px
+}
+.detail DT {
+	WIDTH: 346px; MARGIN-BOTTOM: 5px; FONT-WEIGHT: bold
+}
+.detail DD {
+	WIDTH: 173px; FLOAT: left; COLOR: #666
+}
+.detail .ware_box {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 15px; WIDTH: 346px; PADDING-RIGHT: 15px; HEIGHT: 100px; OVERFLOW: auto; PADDING-TOP: 10px
+}
+.detail .ware {
+	WIDTH: 330px; MARGIN-BOTTOM: 10px; OVERFLOW: hidden
+}
+.detail .ware_pic {
+	WIDTH: 50px; BACKGROUND: #eee; FLOAT: left; HEIGHT: 50px; OVERFLOW: hidden; MARGIN-RIGHT: 10px
+}
+.detail .ware_con {
+	WIDTH: 270px; FLOAT: left
+}
+.detail .ware_text {
+	COLOR: #3e3e3e
+}
+.detail .ware_text A {
+	COLOR: #3e3e3e; TEXT-DECORATION: none
+}
+.detail .ware_text A:hover {
+	TEXT-DECORATION: underline
+}
+.detail .ware_text SPAN {
+	MARGIN: 10px 0px; DISPLAY: block; COLOR: #919191
+}
+.detail .info {
+	LINE-HEIGHT: 18px; COLOR: #919191
+}
+.detail .info SPAN {
+	PADDING-RIGHT: 10px; COLOR: #3e3e3e
+}
+.detail .info B {
+	COLOR: #ff4e00; FONT-SIZE: 14px
+}
+.balance {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; COLOR: #666; FONT-SIZE: 14px; BORDER-TOP: #d1d1d1 1px dotted; FONT-WEIGHT: bold; PADDING-TOP: 10px
+}
+.balance SPAN STRONG {
+	FONT-SIZE: 12px; FONT-WEIGHT: normal
+}
+.balance B {
+	COLOR: #ff4e00; FONT-SIZE: 16px
+}
+.detail .logistics {
+	PADDING-BOTTOM: 15px; LINE-HEIGHT: 20px; PADDING-LEFT: 15px; WIDTH: 346px; PADDING-RIGHT: 15px; COLOR: #666; OVERFLOW: hidden; PADDING-TOP: 10px
+}
+.detail .logistics P {
+	WIDTH: 346px
+}
+.detail .attr {
+	WIDTH: 60px; FLOAT: left
+}
+.detail .value {
+	WIDTH: 286px; FLOAT: left
+}
+.eject_wrap {
+	WIDTH: 580px; BACKGROUND: #fff; OVERFLOW: hidden
+}
+.eject_wrap .fill_in {
+	WIDTH: 400px; FLOAT: left
+}
+.eject_wrap .friend {
+	BORDER-BOTTOM: #e2e2e2 1px solid; BORDER-LEFT: #e2e2e2 1px solid; PADDING-BOTTOM: 0px; PADDING-LEFT: 1px; WIDTH: 168px; PADDING-RIGHT: 1px; BACKGROUND: #eee; FLOAT: right; HEIGHT: 328px; BORDER-TOP: #e2e2e2 1px solid; BORDER-RIGHT: #e2e2e2 1px solid; PADDING-TOP: 0px
+}
+.eject_con .add_float {
+	PADDING-BOTTOM: 20px; PADDING-LEFT: 20px; WIDTH: 358px; PADDING-RIGHT: 20px; OVERFLOW: hidden; PADDING-TOP: 20px
+}
+.eject_con .add_float UL {
+	WIDTH: 358px; OVERFLOW: hidden
+}
+.eject_con .add_float LI {
+	PADDING-BOTTOM: 10px; WIDTH: 358px; FLOAT: left; OVERFLOW: hidden
+}
+.eject_con .add_float LI H3 {
+	LINE-HEIGHT: 26px; WIDTH: 78px; FLOAT: left; COLOR: #646665; FONT-SIZE: 12px; FONT-WEIGHT: normal
+}
+.eject_con .add_float LI P {
+	FLOAT: left
+}
+.eject_con .add_float LI P SPAN {
+	COLOR: #b4b4b4
+}
+.eject_con .add_float LI P TEXTAREA {
+	OVERFLOW-Y: auto; HEIGHT: 100px
+}
+.eject_con .add_float .submit {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 80px; WIDTH: 458px; PADDING-RIGHT: 0px; PADDING-TOP: 10px
+}
+.eject_con .add_float .submit .btn {
+	BORDER-RIGHT-WIDTH: 0px; WIDTH: 120px; BACKGROUND: url(../images/btn.gif) no-repeat 0px -253px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 32px; COLOR: #3f3d3e; BORDER-LEFT-WIDTH: 0px; CURSOR: pointer; FONT-WEIGHT: bold
+}
+.eject_wrap .friend H2 {
+	BORDER-BOTTOM: #fff 1px solid; LINE-HEIGHT: 34px; PADDING-LEFT: 10px; HEIGHT: 34px
+}
+.eject_wrap .friend UL {
+	HEIGHT: 247px; OVERFLOW: hidden; BORDER-TOP: #dadada 1px solid; PADDING-TOP: 6px
+}
+.eject_wrap .friend A {
+	LINE-HEIGHT: 22px; PADDING-LEFT: 20px; DISPLAY: block; BACKGROUND: url(../images/ico.gif) no-repeat 8px -824px; HEIGHT: 22px; COLOR: #666; OVERFLOW: hidden; TEXT-DECORATION: none
+}
+.eject_wrap .friend A:hover {
+	BACKGROUND: url(../images/ico.gif) #fff no-repeat 10px -824px
+}
+.install {
+	PADDING-BOTTOM: 20px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; PADDING-TOP: 20px
+}
+.install .btn_box {
+	PADDING-BOTTOM: 10px; WIDTH: 418px; OVERFLOW: hidden
+}
+.install .btn_box .upload1 {
+	TEXT-ALIGN: center; LINE-HEIGHT: 32px; WIDTH: 120px; DISPLAY: block; BACKGROUND: url(../images/btn.gif) 0px -398px; FLOAT: left; HEIGHT: 32px; COLOR: #3e3e3c; FONT-SIZE: 14px; FONT-WEIGHT: bold; MARGIN-RIGHT: 14px; TEXT-DECORATION: none
+}
+.install .btn_box .upload2 {
+	TEXT-ALIGN: center; LINE-HEIGHT: 32px; WIDTH: 120px; DISPLAY: block; BACKGROUND: url(../images/btn.gif) 0px -922px; FLOAT: left; HEIGHT: 32px; COLOR: #3e3e3c; FONT-SIZE: 14px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.install .file {
+	PADDING-BOTTOM: 10px
+}
+.install P {
+	LINE-HEIGHT: 20px
+}
+.install .pic_edit_line {
+	BORDER-BOTTOM: #e2e2e2 2px solid; PADDING-BOTTOM: 1px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: #e2e2e2 2px solid; PADDING-TOP: 1px
+}
+.install .pic_edit {
+	BORDER-BOTTOM: #e2e2e2 1px solid; PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; WIDTH: 418px; PADDING-RIGHT: 0px; OVERFLOW: hidden; BORDER-TOP: #e2e2e2 1px solid; PADDING-TOP: 10px
+}
+.install .pic_edit LI {
+	WIDTH: 138px; FLOAT: left
+}
+.install .li_block {
+	BORDER-BOTTOM: #e2e2e2 1px solid; BORDER-LEFT: #e2e2e2 1px solid; PADDING-BOTTOM: 6px; MARGIN: 0px auto; PADDING-LEFT: 6px; WIDTH: 100px; PADDING-RIGHT: 6px; HEIGHT: 142px; BORDER-TOP: #e2e2e2 1px solid; BORDER-RIGHT: #e2e2e2 1px solid; PADDING-TOP: 6px
+}
+.install .pic_edit .pic {
+	WIDTH: 100px; BACKGROUND: #eee; HEIGHT: 100px
+}
+.install .pic_edit .pic_name {
+	LINE-HEIGHT: 20px; WIDTH: 100px; HEIGHT: 20px; COLOR: #919191; OVERFLOW: hidden
+}
+.install .delete_div {
+	PADDING-LEFT: 20px
+}
+.install .pic_edit .delete {
+	PADDING-LEFT: 25px; BACKGROUND: url(../images/ico.gif) no-repeat 10px -632px; COLOR: #919191
+}
+.submit1 {
+	WIDTH: 418px; PADDING-TOP: 20px
+}
+.submit1 .btn {
+	BORDER-RIGHT-WIDTH: 0px; MARGIN: 0px auto; WIDTH: 120px; DISPLAY: block; BACKGROUND: url(../images/btn.gif) no-repeat 0px -253px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 32px; COLOR: #3f3d3e; BORDER-LEFT-WIDTH: 0px; CURSOR: pointer; FONT-WEIGHT: bold
+}
+.eject_con .adds {
+	PADDING-BOTTOM: 20px; PADDING-LEFT: 20px; WIDTH: auto; PADDING-RIGHT: 20px; OVERFLOW: hidden; PADDING-TOP: 20px
+}
+.eject_con .adds UL {
+	WIDTH: 398px; OVERFLOW: hidden
+}
+.eject_con .adds LI {
+	PADDING-BOTTOM: 10px; WIDTH: 398px; FLOAT: left; OVERFLOW: hidden
+}
+.eject_con .adds LI H3 {
+	LINE-HEIGHT: 26px; WIDTH: 80px; FLOAT: left; COLOR: #646665; FONT-SIZE: 12px; FONT-WEIGHT: normal
+}
+.eject_con .adds LI P {
+	FLOAT: left
+}
+.eject_con .adds LI P SPAN {
+	PADDING-LEFT: 10px; COLOR: #b4b4b4
+}
+.eject_con .adds .strong {
+	PADDING-LEFT: 10px; COLOR: #ff4e00
+}
+.eject_con .adds .submit {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 80px; PADDING-RIGHT: 0px; PADDING-TOP: 10px
+}
+.eject_con .adds .submit .btn {
+	BORDER-RIGHT-WIDTH: 0px; WIDTH: 120px; BACKGROUND: url(../images/btn.gif) no-repeat 0px -253px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 32px; COLOR: #3f3d3e; BORDER-LEFT-WIDTH: 0px; CURSOR: pointer; FONT-WEIGHT: bold
+}
+}
+.subroom {
+	WIDTH: 120px; BACKGROUND: url(../images/sale_btn2.gif)
+}
+.sign_box {
+	WIDTH: 300px; FLOAT: left
+}
+.eject_con .adds .sign {
+	WIDTH: 150px; BACKGROUND: #eee; FLOAT: left; HEIGHT: 50px; MARGIN-RIGHT: 5px
+}
+.eject_wrap_msg {
+	WIDTH: 780px; BACKGROUND: #fff; OVERFLOW: hidden
+}
+.eject_wrap_msg .fill_in {
+	WIDTH: 400px; FLOAT: left
+}
+.eject_wrap_msg .friend {
+	BORDER-BOTTOM: #e2e2e2 1px solid; BORDER-LEFT: #e2e2e2 1px solid; PADDING-BOTTOM: 0px; PADDING-LEFT: 1px; WIDTH: 168px; PADDING-RIGHT: 1px; BACKGROUND: #eee; FLOAT: right; HEIGHT: 328px; BORDER-TOP: #e2e2e2 1px solid; BORDER-RIGHT: #e2e2e2 1px solid; PADDING-TOP: 0px
+}
+.eject_wrap_msg .eject_con {
+	BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px
+}
+.eject_wrap_msg .eject_con .msg {
+	PADDING-BOTTOM: 20px; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 20px; WIDTH: 558px; PADDING-RIGHT: 20px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; OVERFLOW: hidden; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 20px
+}
+.eject_wrap_msg .eject_con .msg UL {
+	WIDTH: 558px; OVERFLOW: hidden
+}
+.eject_wrap_msg .eject_con .msg LI {
+	PADDING-BOTTOM: 10px; WIDTH: 558px; FLOAT: left; OVERFLOW: hidden
+}
+.eject_wrap_msg .eject_con .msg LI H3 {
+	LINE-HEIGHT: 26px; WIDTH: 78px; FLOAT: left; COLOR: #646665; FONT-SIZE: 12px; FONT-WEIGHT: normal
+}
+.eject_wrap_msg .eject_con .msg LI P {
+	FLOAT: left
+}
+.eject_wrap_msg .eject_con .msg LI P SPAN {
+	COLOR: #b4b4b4
+}
+.eject_wrap_msg .eject_con .msg LI P TEXTAREA {
+	OVERFLOW-Y: auto; WIDTH: 300px; HEIGHT: 200px
+}
+.eject_con .msg .submit {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 80px; WIDTH: 458px; PADDING-RIGHT: 0px; PADDING-TOP: 10px
+}
+.eject_con .msg .submit .btn {
+	BORDER-RIGHT-WIDTH: 0px; WIDTH: 120px; BACKGROUND: url(../images/btn.gif) no-repeat 0px -253px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 32px; COLOR: #3f3d3e; BORDER-LEFT-WIDTH: 0px; CURSOR: pointer; FONT-WEIGHT: bold
+}
+.eject_wrap_msg .friend H2 {
+	BORDER-BOTTOM: #fff 1px solid; LINE-HEIGHT: 34px; PADDING-LEFT: 10px; HEIGHT: 34px
+}
+.eject_wrap_msg .friend UL {
+	OVERFLOW-Y: auto; HEIGHT: 285px; BORDER-TOP: #dadada 1px solid; PADDING-TOP: 6px
+}
+.eject_wrap_msg .friend A {
+	LINE-HEIGHT: 22px; PADDING-LEFT: 20px; DISPLAY: block; BACKGROUND: url(../images/ico.gif) no-repeat 8px -824px; HEIGHT: 22px; COLOR: #666; OVERFLOW: hidden; TEXT-DECORATION: none
+}
+.eject_wrap .friend A:hover {
+	BACKGROUND: url(../images/ico.gif) #fff no-repeat 10px -824px
+}
+.tab {
+	LINE-HEIGHT: 26px; WIDTH: 100%; BACKGROUND: url(../images/tab.gif) repeat-x 50% bottom; HEIGHT: 28px
+}
+.tab LI {
+	FLOAT: left; FONT-SIZE: 14px; CURSOR: pointer; MARGIN-RIGHT: 2px
+}
+.tab .active {
+	BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #e2e2e2 1px solid; PADDING-BOTTOM: 0px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; BACKGROUND: #fff; HEIGHT: 26px; COLOR: #ff4f01; BORDER-TOP: #e2e2e2 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #e2e2e2 1px solid; PADDING-TOP: 0px
+}
+.tab .normal {
+	BORDER-BOTTOM: #e2e2e2 1px solid; BORDER-LEFT: #e2e2e2 1px solid; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: #f9f9f9; HEIGHT: 26px; COLOR: #3e3e3e; BORDER-TOP: #e2e2e2 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #e2e2e2 1px solid; PADDING-TOP: 0px
+}
+.tab .active A {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; FLOAT: left; HEIGHT: 26px; COLOR: #ff4f01; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+.tab .normal A {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; FLOAT: left; HEIGHT: 26px; COLOR: #3e3e3e; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+.wrap {
+	BORDER-BOTTOM: #e2e2e2 1px solid; POSITION: relative; BORDER-LEFT: #e2e2e2 1px solid; WIDTH: 804px; BACKGROUND: #fff; BORDER-TOP: #e2e2e2 0px solid; BORDER-RIGHT: #e2e2e2 1px solid
+}
+.wrap_line {
+	BORDER-BOTTOM: #e2e2e2 1px solid; POSITION: relative; BORDER-LEFT: #e2e2e2 1px solid; WIDTH: 804px; BACKGROUND: #fff; BORDER-TOP: #e2e2e2 1px solid; BORDER-RIGHT: #e2e2e2 1px solid
+}
+.wrap_bottom {
+	POSITION: absolute; WIDTH: 806px; BOTTOM: -3px; BACKGROUND: #e9e9e9; HEIGHT: 2px; OVERFLOW: hidden; LEFT: -1px
+}
+.lookup {
+	POSITION: absolute; LINE-HEIGHT: 32px; WIDTH: 164px; BACKGROUND: url(../images/btn.gif) 0px -66px; HEIGHT: 32px; TOP: 10px; CURSOR: pointer; RIGHT: 20px
+}
+.lookup B {
+	PADDING-LEFT: 20px; WIDTH: 144px; DISPLAY: block; HEIGHT: 32px; COLOR: #3e3e3c; FONT-SIZE: 14px
+}
+.lookup .hide {
+	BACKGROUND: url(../images/btn.gif) no-repeat 133px -116px
+}
+.lookup .show {
+	BACKGROUND: url(../images/btn.gif) no-repeat 133px -156px
+}
+.eject_btn {
+	Z-INDEX: 3; POSITION: absolute; LINE-HEIGHT: 32px; WIDTH: 137px; BACKGROUND: url(../images/btn.gif) 0px -198px; HEIGHT: 32px; TOP: 10px; RIGHT: 20px
+}
+.eject_btn B {
+	PADDING-LEFT: 40px; WIDTH: 97px; DISPLAY: block; HEIGHT: 32px; COLOR: #3e3e3c; FONT-SIZE: 14px; CURSOR: pointer
+}
+.eject_btn .ico1 {
+	BACKGROUND: url(../images/ico.gif) no-repeat 15px -656px
+}
+.eject_btn .ico2 {
+	BACKGROUND: url(../images/ico.gif) no-repeat 15px -188px
+}
+.eject_btn .ico3 {
+	BACKGROUND: url(../images/ico.gif) no-repeat 12px -943px
+}
+.eject_btn_two {
+	LINE-HEIGHT: 32px; WIDTH: 137px; BACKGROUND: url(../images/btn.gif) 0px -198px; HEIGHT: 32px
+}
+.eject_pos1 {
+	Z-INDEX: 3; POSITION: absolute; TOP: 10px; RIGHT: 20px
+}
+.eject_pos2 {
+	Z-INDEX: 3; POSITION: absolute; TOP: 10px; RIGHT: 170px
+}
+.eject_pos3 {
+	Z-INDEX: 3; POSITION: absolute; TOP: 10px; RIGHT: 240px
+}
+.eject_pos4 {
+	Z-INDEX: 3; POSITION: absolute; TOP: 10px; RIGHT: 130px
+}
+.eject_btn_two B {
+	DISPLAY: block; HEIGHT: 32px; COLOR: #3e3e3c; FONT-SIZE: 14px; CURSOR: pointer
+}
+.eject_btn_two .ico1 {
+	PADDING-LEFT: 30px; WIDTH: 107px; BACKGROUND: url(../images/ico.gif) no-repeat 15px -1330px
+}
+.eject_btn_two .ico2 {
+	PADDING-LEFT: 40px; WIDTH: 97px; BACKGROUND: url(../images/ico.gif) no-repeat 15px -1282px
+}
+.eject_btn_two .ico3 {
+	PADDING-LEFT: 50px; WIDTH: 87px; BACKGROUND: url(../images/ico.gif) no-repeat 22px -1416px
+}
+.eject_btn_two .ico4 {
+	PADDING-LEFT: 35px; WIDTH: 102px; BACKGROUND: url(../images/ico.gif) no-repeat 12px -1710px
+}
+.eject_btn .ico5 {
+	PADDING-LEFT: 35px; WIDTH: 102px; BACKGROUND: url(../images/ico.gif) no-repeat 15px -656px
+}
+.eject_btn_three {
+	LINE-HEIGHT: 32px; WIDTH: 97px; BACKGROUND: url(../images/btn.gif) 0px -880px; HEIGHT: 32px
+}
+.eject_btn_three B {
+	DISPLAY: block; HEIGHT: 32px; COLOR: #3e3e3c; FONT-SIZE: 14px; CURSOR: pointer
+}
+.eject_btn_three .ico3 {
+	PADDING-LEFT: 40px; BACKGROUND: url(../images/ico.gif) no-repeat 22px -1330px
+}
+.eject_btn_three .ico4 {
+	PADDING-LEFT: 40px; BACKGROUND: url(../images/ico.gif) no-repeat 22px -1374px
+}
+.right_ico {
+	WIDTH: 10px; DISPLAY: block; BACKGROUND: url(../images/ico.gif) no-repeat 0px -1215px; HEIGHT: 10px; OVERFLOW: hidden; CURSOR: pointer
+}
+.wrong_ico {
+	WIDTH: 10px; DISPLAY: block; BACKGROUND: url(../images/ico.gif) no-repeat 0px -1814px; HEIGHT: 10px; OVERFLOW: hidden; CURSOR: pointer
+}
+.no_ico {
+	WIDTH: 10px; DISPLAY: block; BACKGROUND: url(../images/ico.gif) no-repeat 0px -1246px; HEIGHT: 10px; OVERFLOW: hidden
+}
+.no_ico_disable {
+	WIDTH: 10px; DISPLAY: block; BACKGROUND: url(../images/ico.gif) no-repeat 0px -1845px; HEIGHT: 10px; OVERFLOW: hidden
+}
+.public {
+	PADDING-BOTTOM: 30px; MARGIN: 0px auto; PADDING-LEFT: 0px; WIDTH: 768px; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 30px
+}
+.public .gray TH {
+	COLOR: #919191
+}
+.public_index {
+	PADDING-BOTTOM: 10px; MARGIN: 0px auto; PADDING-LEFT: 0px; WIDTH: 768px; PADDING-RIGHT: 0px; PADDING-TOP: 10px
+}
+.public_select {
+	PADDING-BOTTOM: 20px; MARGIN: 0px auto; PADDING-LEFT: 0px; WIDTH: 768px; PADDING-RIGHT: 0px; PADDING-TOP: 20px
+}
+.public_select .gray TH {
+	COLOR: #919191
+}
+.gray_new TH {
+	COLOR: #919191
+}
+.table TABLE {
+	WIDTH: 100%; BORDER-COLLAPSE: collapse
+}
+.table TH {
+	HEIGHT: 32px; FONT-WEIGHT: normal
+}
+.table TD {
+	PADDING-BOTTOM: 10px; PADDING-TOP: 10px
+}
+.table .line TD {
+	BORDER-BOTTOM: #e2e2e2 1px solid; BORDER-TOP: #e2e2e2 1px solid
+}
+.table .line_bold {
+	BACKGROUND: url(../images/line_bold.gif) repeat-x 0px bottom
+}
+.table .line_bottom TD {
+	BORDER-BOTTOM: #e2e2e2 1px solid
+}
+.line_head {
+	BACKGROUND: url(../images/line_head.gif) repeat-x 0px bottom
+}
+.line_normal TD {
+	BORDER-TOP: #e2e2e2 1px solid
+}
+.table_head_line {
+	BACKGROUND: url(../images/table_line.gif) repeat-x 0px 64px
+}
+.table .all {
+	FLOAT: left; CURSOR: pointer; MARGIN-RIGHT: 10px
+}
+.table .edit {
+	PADDING-LEFT: 25px; BACKGROUND: url(../images/ico.gif) no-repeat 10px -604px; COLOR: #919191
+}
+.table .delete {
+	PADDING-LEFT: 25px; BACKGROUND: url(../images/ico.gif) no-repeat 10px -633px; COLOR: #919191
+}
+.table .user {
+	COLOR: #3e3e3e
+}
+.table .user:hover {
+	COLOR: #ff4f01
+}
+.table .set_up {
+	PADDING-LEFT: 23px; BACKGROUND: url(../images/ico.gif) no-repeat 10px -701px; FLOAT: left; COLOR: #919191
+}
+.table .default {
+	PADDING-LEFT: 23px; FLOAT: left; COLOR: #333; TEXT-DECORATION: none
+}
+.table .edit1 {
+	PADDING-LEFT: 23px; BACKGROUND: url(../images/ico.gif) no-repeat 10px -729px; FLOAT: left; COLOR: #919191
+}
+.table .export {
+	PADDING-LEFT: 23px; BACKGROUND: url(../images/ico.gif) no-repeat 10px -2000px; FLOAT: left; COLOR: #919191
+}
+.table .extend {
+	PADDING-LEFT: 23px; BACKGROUND: url(../images/ico.gif) no-repeat 10px -1875px; FLOAT: left; COLOR: #919191
+}
+.table .add1_ico {
+	PADDING-LEFT: 23px; BACKGROUND: url(../images/ico.gif) no-repeat 10px -1180px; FLOAT: left; COLOR: #919191
+}
+.table .add2_ico {
+	PADDING-LEFT: 23px; BACKGROUND: url(../images/ico.gif) no-repeat 10px -1772px; FLOAT: left; COLOR: #919191
+}
+.table .edit:hover {
+	COLOR: #ff4f01
+}
+.table .edit1:hover {
+	COLOR: #ff4f01
+}
+.table .set_up:hover {
+	COLOR: #ff4f01
+}
+.table .delete:hover {
+	COLOR: #ff4f01
+}
+.table .export:hover {
+	COLOR: #ff4f01
+}
+.table .extend:hover {
+	COLOR: #ff4f01
+}
+.table .add1_ico:hover {
+	COLOR: #ff4f01
+}
+.table .add2_ico:hover {
+	COLOR: #ff4f01
+}
+.buy {
+	PADDING-LEFT: 25px; BACKGROUND: url(../images/ico.gif) no-repeat 10px -2150px; FLOAT: left; COLOR: #919191
+}
+.desc {
+	PADDING-LEFT: 25px; BACKGROUND: url(../images/ico.gif) no-repeat 10px -2187px; FLOAT: left; COLOR: #919191
+}
+.finished {
+	PADDING-LEFT: 25px; BACKGROUND: url(../images/ico.gif) no-repeat 10px -2224px; FLOAT: left; COLOR: #919191
+}
+.log {
+	PADDING-LEFT: 25px; BACKGROUND: url(../images/ico.gif) no-repeat 10px -2041px; FLOAT: left; COLOR: #919191
+}
+.start {
+	PADDING-LEFT: 25px; BACKGROUND: url(../images/ico.gif) no-repeat 10px -2080px; FLOAT: left; COLOR: #919191
+}
+.view {
+	PADDING-LEFT: 25px; BACKGROUND: url(../images/ico.gif) no-repeat 10px -2114px; FLOAT: left; COLOR: #919191
+}
+.cancel {
+	PADDING-LEFT: 25px; BACKGROUND: url(../images/ico.gif) no-repeat 10px -1244px; FLOAT: left; COLOR: #919191
+}
+.view_order {
+	PADDING-LEFT: 25px; BACKGROUND: url(../images/ico.gif) no-repeat 10px -2348px; FLOAT: left; COLOR: #919191
+}
+.buy:hover {
+	COLOR: #ff4f01
+}
+.desc:hover {
+	COLOR: #ff4f01
+}
+.finished:hover {
+	COLOR: #ff4f01
+}
+.ico21:hover {
+	COLOR: #ff4f01
+}
+.ico22:hover {
+	COLOR: #ff4f01
+}
+.log:hover {
+	COLOR: #ff4f01
+}
+.start:hover {
+	COLOR: #ff4f01
+}
+.view:hover {
+	COLOR: #ff4f01
+}
+.view_order:hover {
+	COLOR: #ff4f01
+}
+.cancel:hover {
+	COLOR: #ff4f01
+}
+.table .table_user {
+	FLOAT: left; COLOR: #919191
+}
+.amend {
+	DISPLAY: block; BACKGROUND: url(../images/ico.gif) no-repeat 98px -1010px; CURSOR: pointer
+}
+.table .label {
+	POSITION: relative; BORDER-RIGHT-WIDTH: 0px; WIDTH: 60px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #5ca33b; BORDER-LEFT-WIDTH: 0px; TOP: 2px
+}
+.table .ware_pic {
+	WIDTH: 50px; BACKGROUND: #eee; FLOAT: left; HEIGHT: 50px
+}
+.table .ware_text {
+	WIDTH: 170px; FLOAT: left; MARGIN-LEFT: 10px
+}
+.table .ware_text A {
+	COLOR: #3e3e3e; TEXT-DECORATION: none
+}
+.table .ware_text A:hover {
+	TEXT-DECORATION: underline
+}
+.table .email {
+	WIDTH: 47px; DISPLAY: block; BACKGROUND: url(../images/btn.gif) no-repeat 0px -41px; HEIGHT: 17px
+}
+.table .position1 {
+	FLOAT: left; PADDING-TOP: 5px
+}
+.table .position2 {
+	FLOAT: right; PADDING-TOP: 4px
+}
+.tr_color TH {
+	COLOR: #919191
+}
+.tr_align TD {
+	TEXT-ALIGN: center
+}
+.tr_bgcolor TH {
+	BORDER-BOTTOM: #e2e2e2 1px solid; BACKGROUND: #f8f8f8; COLOR: #919191
+}
+.table1 TABLE {
+	WIDTH: 100%; BORDER-COLLAPSE: collapse
+}
+.table1 .line_bold {
+	BACKGROUND: url(../images/line_bold.gif) repeat-x 0px bottom
+}
+.table1 .delete {
+	PADDING-LEFT: 25px; BACKGROUND: url(../images/ico.gif) no-repeat 10px -632px; FLOAT: left; COLOR: #919191
+}
+.table1 .all {
+	FLOAT: left; CURSOR: pointer; MARGIN-RIGHT: 10px
+}
+.table1 TH {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-WEIGHT: normal; PADDING-TOP: 10px
+}
+.table1 TD {
+	
+}
+.table1 TD H3 {
+	PADDING-BOTTOM: 12px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FLOAT: left; COLOR: #3e3e3e; FONT-SIZE: 12px; FONT-WEIGHT: normal; PADDING-TOP: 10px
+}
+.table1 TD P {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; WIDTH: 500px; PADDING-RIGHT: 0px; FLOAT: left; COLOR: #919191; PADDING-TOP: 10px
+}
+.table1 .bgcolor {
+	BACKGROUND: #f8f8f8; HEIGHT: 24px
+}
+.table1 .table_user {
+	FLOAT: left; COLOR: #333
+}
+.table1 .time {
+	COLOR: #c1c1c1
+}
+.table1 .position1 {
+	FLOAT: left; PADDING-TOP: 5px
+}
+.table1 .position2 {
+	FLOAT: right; PADDING-TOP: 4px
+}
+.table_line TH {
+	BORDER-BOTTOM: #ccc 1px solid
+}
+.user_search {
+	MARGIN-BOTTOM: 20px
+}
+.user_search SPAN {
+	PADDING-LEFT: 10px
+}
+.user_search .btn {
+	BORDER-RIGHT-WIDTH: 0px; WIDTH: 61px; BACKGROUND: url(../images/btn.gif) no-repeat 0px -305px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 22px; BORDER-LEFT-WIDTH: 0px
+}
+.message {
+	WIDTH: 768px; MARGIN-BOTTOM: 10px; OVERFLOW: hidden
+}
+.message_line {
+	BORDER-BOTTOM: #e2e2e2 2px solid; PADDING-BOTTOM: 1px
+}
+.message H2 {
+	BORDER-BOTTOM: #e2e2e2 1px solid; POSITION: relative; WIDTH: 768px; BACKGROUND: #f5f5f5; OVERFLOW: hidden; BORDER-TOP: #e2e2e2 2px solid; FONT-WEIGHT: normal
+}
+.message H2 SPAN {
+	PADDING-BOTTOM: 8px; PADDING-LEFT: 15px; WIDTH: 680px; PADDING-RIGHT: 0px; FLOAT: left; OVERFLOW: hidden; PADDING-TOP: 8px
+}
+.message .delete {
+	POSITION: absolute; PADDING-LEFT: 25px; BACKGROUND: url(../images/ico.gif) no-repeat 10px -631px; COLOR: #919191; TOP: 7px; RIGHT: 15px
+}
+.message .delete:hover {
+	COLOR: #ff4f01
+}
+.message_con {
+	BORDER-BOTTOM: #e2e2e2 1px solid; PADDING-BOTTOM: 15px; PADDING-LEFT: 15px; WIDTH: 738px; PADDING-RIGHT: 15px; OVERFLOW: hidden; PADDING-TOP: 15px
+}
+.message_con .user {
+	WIDTH: 160px; FLOAT: left; OVERFLOW: hidden
+}
+.message_con .user P {
+	WIDTH: 50px; BACKGROUND: #eee; FLOAT: left; HEIGHT: 50px; OVERFLOW: hidden
+}
+.message_con .user H3 {
+	LINE-HEIGHT: 20px; WIDTH: 98px; DISPLAY: inline; FLOAT: right; COLOR: #929292; MARGIN-LEFT: 10px; FONT-SIZE: 12px; OVERFLOW: hidden; FONT-WEIGHT: normal
+}
+.message_con .user SPAN {
+	COLOR: #5ca438
+}
+.message_con .txt {
+	WIDTH: 558px; FLOAT: right; COLOR: #666; OVERFLOW: hidden
+}
+.message DL {
+	PADDING-TOP: 15px
+}
+.message DT {
+	PADDING-LEFT: 15px; WIDTH: 50px; FLOAT: left
+}
+.message DD {
+	FLOAT: left
+}
+.message DD TEXTAREA {
+	WIDTH: 400px; HEIGHT: 90px; OVERFLOW: auto
+}
+.message DD P {
+	MARGIN-BOTTOM: 10px
+}
+.message DD .btn {
+	BORDER-RIGHT-WIDTH: 0px; WIDTH: 120px; BACKGROUND: url(../images/btn.gif) no-repeat 0px -253px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 32px; COLOR: #3f3d3e; BORDER-LEFT-WIDTH: 0px; CURSOR: pointer; FONT-WEIGHT: bold
+}
+.information {
+	PADDING-BOTTOM: 50px; WIDTH: 100%; OVERFLOW: hidden
+}
+.information .photo {
+	FLOAT: left
+}
+.information .photo P {
+	MARGIN-BOTTOM: 10px; HEIGHT: 120px
+}
+.information .photo B {
+	POSITION: relative; WIDTH: 120px; DISPLAY: block; BACKGROUND: url(../images/btn.gif) 0px -398px; HEIGHT: 32px
+}
+.information .photo B .file1 {
+	Z-INDEX: 2; POSITION: relative; WIDTH: 80px; HEIGHT: 32px; TOP: 0px; LEFT: -22px
+}
+.information .photo B .file2 {
+	Z-INDEX: 1; POSITION: absolute; WIDTH: 120px; HEIGHT: 32px; TOP: 0px; RIGHT: -36px
+}
+.information .photo .explain {
+	MARGIN-TOP: 10px; DISPLAY: block; COLOR: #9d9d9d
+}
+.information .photo B .txt {
+	Z-INDEX: 0; POSITION: absolute; TEXT-ALIGN: center; LINE-HEIGHT: 32px; WIDTH: 120px; HEIGHT: 32px; COLOR: #3e3e3e; FONT-SIZE: 14px; TOP: 0px; LEFT: 0px
+}
+.information .photo B INPUT {
+	FILTER: alpha(opacity=0); WIDTH: 0px; HEIGHT: 32px; CURSOR: pointer; -moz-opacity: 0; opacity: 0
+}
+.information .info TABLE {
+	WIDTH: 100%; BORDER-COLLAPSE: collapse
+}
+.information .info TH {
+	TEXT-ALIGN: left; PADDING-RIGHT: 20px; HEIGHT: 40px; COLOR: #666; FONT-WEIGHT: normal
+}
+.information .info .btn {
+	BORDER-RIGHT-WIDTH: 0px; WIDTH: 120px; BACKGROUND: url(../images/btn.gif) no-repeat 0px -253px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 32px; COLOR: #3f3d3e; BORDER-LEFT-WIDTH: 0px; CURSOR: pointer; FONT-WEIGHT: bold
+}
+.label LABEL {
+	PADDING-RIGHT: 28px
+}
+.information_index {
+	WIDTH: 100%
+}
+.information_index .photo {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 15px; PADDING-RIGHT: 30px; FLOAT: left; PADDING-TOP: 0px
+}
+.information_index .photo P {
+	WIDTH: 120px; MARGIN-BOTTOM: 10px; BACKGROUND: #eee; HEIGHT: 120px
+}
+.my_friend {
+	WIDTH: 768px
+}
+.all_btn {
+	POSITION: relative; LINE-HEIGHT: 32px; PADDING-LEFT: 15px; WIDTH: 753px; HEIGHT: 36px
+}
+.all_bg_up {
+	BACKGROUND: url(../images/line_bold.gif) repeat-x 0px bottom
+}
+.all_bg_down {
+	BORDER-TOP: #e2e2e2 2px solid
+}
+.all_btn LABEL {
+	FLOAT: left; MARGIN-RIGHT: 10px
+}
+.all_btn LABEL INPUT {
+	POSITION: relative; VERTICAL-ALIGN: middle
+}
+.all_btn .note {
+	PADDING-LEFT: 15px; BACKGROUND: url(../images/ico.gif) no-repeat 0px -975px; FLOAT: left; COLOR: #919191
+}
+.all_btn .note:hover {
+	COLOR: red
+}
+.all_btn .delete {
+	PADDING-LEFT: 15px; BACKGROUND: url(../images/ico.gif) no-repeat 0px -623px; FLOAT: left; COLOR: #919191
+}
+.refresh {
+	PADDING-LEFT: 10px; BACKGROUND: url(../images/ico.gif) no-repeat 0px -1090px; FLOAT: left; HEIGHT: 26px; COLOR: #919191
+}
+.my_friend .list {
+	BORDER-BOTTOM: #e2e2e2 1px solid; PADDING-BOTTOM: 0px; PADDING-LEFT: 30px; WIDTH: 738px; PADDING-RIGHT: 0px; MARGIN-BOTTOM: 1px; PADDING-TOP: 30px
+}
+.my_friend .list LI {
+	PADDING-BOTTOM: 30px; WIDTH: 245px; FLOAT: left
+}
+.my_friend .list LI P {
+	WIDTH: 50px; BACKGROUND: #eee; FLOAT: left; HEIGHT: 50px; MARGIN-RIGHT: 10px
+}
+.my_friend .list LI H3 {
+	FLOAT: left; FONT-SIZE: 12px; FONT-WEIGHT: normal
+}
+.my_friend .list LI H3 B {
+	POSITION: relative; WIDTH: 120px; DISPLAY: block; MARGIN-BOTTOM: 10px; HEIGHT: 18px; COLOR: #5ba439; OVERFLOW: hidden; FONT-WEIGHT: normal
+}
+.my_friend .list LI H3 B INPUT {
+	POSITION: relative; TOP: 1px; MARGIN-RIGHT: 5px
+}
+.my_friend .list LI H3 SPAN {
+	DISPLAY: block
+}
+.my_friend .list .note {
+	PADDING-LEFT: 15px; BACKGROUND: url(../images/ico.gif) no-repeat 0px -984px; FLOAT: left; COLOR: #919191
+}
+.my_friend .list .note:hover {
+	COLOR: red
+}
+.my_friend .list {
+	FLOAT: left; MARGIN-LEFT: 10px
+}
+.delete .refresh {
+	MARGIN-LEFT: 5px
+}
+.delete {
+	MARGIN-RIGHT: 5px
+}

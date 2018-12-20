@@ -1,0 +1,189 @@
+BODY {
+	MARGIN-TOP: 0px; FONT-SIZE: 12px; LINE-HEIGHT: 150%
+}
+TABLE {
+	FONT-SIZE: 12px; LINE-HEIGHT: 150%
+}
+A:link {
+	COLOR: #00007f; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #00007f; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #00007f; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ff2222; TEXT-DECORATION: none
+}
+A:link {
+	COLOR: #00007f; TEXT-DECORATION: none
+}
+.b {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #00c
+}
+.p3 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #333333
+}
+.p5 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: red
+}
+.p6 {
+	FONT-SIZE: 12px
+}
+.p8 {
+	FONT-SIZE: 14px
+}
+.hot {
+	LINE-HEIGHT: 150%
+}
+.wtitle2 {
+	PADDING-LEFT: 10px; FONT-SIZE: 14px; COLOR: #ffffff; PADDING-TOP: 3px; BACKGROUND-COLOR: #ff8a00
+}
+.xu_kuan {
+	BORDER-RIGHT: #ffdba5 1px dotted; BORDER-TOP: #ffdba5 1px dotted; BORDER-LEFT: #ffdba5 1px dotted; BORDER-BOTTOM: #ffdba5 1px dotted
+}
+.borders {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: #cccccc 1px solid
+}
+.borders1 {
+	BORDER-RIGHT: #ffce84 2px solid; BORDER-LEFT: #ffce84 2px solid; BORDER-BOTTOM: #ffce84 2px solid
+}
+.borders2 {
+	BORDER-BOTTOM: #cccccc 1px solid
+}
+A.linkfont1:link {
+	COLOR: #0000d7; TEXT-DECORATION: underline
+}
+A.linkfont1:visited {
+	COLOR: #0000d7; TEXT-DECORATION: underline
+}
+A.linkfont1:active {
+	COLOR: red; TEXT-DECORATION: none
+}
+A.linkfont1:hover {
+	FONT-WEIGHT: normal; COLOR: red; TEXT-DECORATION: none
+}
+A.link5:link {
+	COLOR: #0078f0; TEXT-DECORATION: none
+}
+A.link5:visited {
+	COLOR: #0078f0; TEXT-DECORATION: none
+}
+A.link5:active {
+	COLOR: #ff0066; TEXT-DECORATION: none
+}
+A.link5:hover {
+	COLOR: #ff0066; TEXT-DECORATION: none
+}
+A.menu1:link {
+	FONT-SIZE: 9pt; COLOR: #929292
+}
+A.menu1:visited {
+	FONT-SIZE: 9pt; COLOR: #929292
+}
+A.menu1:active {
+	FONT-SIZE: 9pt; COLOR: #000000
+}
+A.menu1:hover {
+	FONT-SIZE: 9pt; COLOR: #000000
+}
+A.menu2:link {
+	FONT-SIZE: 9pt; COLOR: #00007f
+}
+A.menu2:visited {
+	FONT-SIZE: 9pt; COLOR: #00007f
+}
+A.menu2:active {
+	FONT-SIZE: 9pt; COLOR: #000000
+}
+A.menu2:hover {
+	FONT-SIZE: 9pt; COLOR: #000000
+}
+A.title1:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.title1:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.title1:active {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+A.title1:hover {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+.fontbig {
+	FONT-SIZE: 23px; COLOR: #000099; LINE-HEIGHT: 200%
+}
+.fontwhite {
+	COLOR: #ffffff
+}
+.font_zj {
+	COLOR: #003399
+}
+.button {
+	FONT-SIZE: 9pt
+}
+.bg_g1 {
+	BACKGROUND-COLOR: #ff8a00
+}
+.bg_g2 {
+	WORD-SPACING: 4px; PADDING-TOP: 3px; BACKGROUND-COLOR: #ffdbaa
+}
+.bg_l {
+	BACKGROUND-COLOR: #ffdbaa
+}
+.bg_r {
+	BACKGROUND-COLOR: #fef0d8
+}
+.bg_t {
+	BACKGROUND-COLOR: #ffdbaa
+}
+.bg_b {
+	BACKGROUND-COLOR: #ffeaca
+}
+.bg_c {
+	BACKGROUND-COLOR: #ffce84
+}
+.bg_bk {
+	BACKGROUND-COLOR: #fff9e1
+}
+.font_g1 {
+	COLOR: #a8dcff
+}
+.font_deep {
+	COLOR: #ff6600
+}
+.fdate {
+	FONT-SIZE: 8pt; COLOR: #9595ff
+}
+.wtitle {
+	PADDING-LEFT: 10px; FONT-SIZE: 14px; COLOR: #ffffff; PADDING-TOP: 3px; BACKGROUND-COLOR: #ffc16f
+}
+.wtitle_bot {
+	BACKGROUND-COLOR: #e37609
+}
+.rightkuan {
+	FONT-SIZE: 22pt; COLOR: #000099; LINE-HEIGHT: 180%
+}
+.border_sou {
+	BORDER-RIGHT: #ff9d3c 1px solid; BORDER-TOP: #ff9d3c 1px solid; BORDER-LEFT: #ff9d3c 1px solid; BORDER-BOTTOM: #ff9d3c 1px solid
+}
+.p5 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: red
+}
+.textinput {
+	BORDER-RIGHT: #ffce9d 1px solid; BORDER-TOP: #ffce9d 1px solid; FONT-SIZE: 9pt; BACKGROUND: #ffffff; BORDER-LEFT: #ffce9d 1px solid; BORDER-BOTTOM: #ffce9d 1px solid; FONT-FAMILY: arial
+}
+.textbotton {
+	BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; FONT-SIZE: 9pt; BACKGROUND: #ff9231; BORDER-LEFT: #ffffff 1px solid; COLOR: #ffffff; BORDER-BOTTOM: #ffffff 1px solid; FONT-FAMILY: arial
+}
+.borders3 {
+	BORDER-RIGHT: #ffcf60 1px solid; BORDER-LEFT: #ffcf60 1px solid; BORDER-BOTTOM: #ffcf60 1px solid
+}
+.borders31 {
+	BORDER-RIGHT: #ff9933 1px solid; BORDER-TOP: #ff9933 1px solid; BORDER-LEFT: #ff9933 1px solid; BORDER-BOTTOM: #ff9933 1px solid
+}
+.img1 {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid
+}

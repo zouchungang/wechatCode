@@ -1,0 +1,369 @@
+.Content {
+	MARGIN: 0px auto; OVERFLOW: hidden; WIDTH: 960px; HEIGHT: auto
+}
+.Secon_Nan {
+	PADDING-LEFT: 15px; HEIGHT: 25px; TEXT-ALIGN: left
+}
+.Secon_Left {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 690px; HEIGHT: auto
+}
+.Secon_right {
+	FLOAT: right; WIDTH: 250px; HEIGHT: auto
+}
+.info_box {
+	HEIGHT: 510px
+}
+.info_box1 {
+	HEIGHT: 400px
+}
+.info_boxtitle {
+	BORDER-BOTTOM: #f9c39c 1px solid; HEIGHT: 40px
+}
+.info_boxtitleL {
+	BACKGROUND: url(../image/info_boxtitle1.gif) no-repeat; FLOAT: left; WIDTH: 8px; HEIGHT: 40px
+}
+.info_boxtitleC {
+	BORDER-TOP: #f9c39c 1px solid; FLOAT: left; WIDTH: 674px; HEIGHT: 38px
+}
+.info_boxtitleC H2 {
+	FONT-SIZE: 18px; PADDING-TOP: 10px
+}
+.info_boxtitleR {
+	BACKGROUND: url(../image/info_boxtitle2.gif) no-repeat; FLOAT: right; WIDTH: 8px; HEIGHT: 40px
+}
+.info_boxL {
+	BORDER-RIGHT: #d4d1cf 1px solid; BACKGROUND: #fffbf7; FLOAT: left; BORDER-LEFT: #f9c39c 1px solid; WIDTH: 205px; BORDER-BOTTOM: #f9c39c 1px solid; HEIGHT: 460px
+}
+.info_boxL1 {
+	BORDER-RIGHT: #f9c39c 1px solid; BACKGROUND: #fffbf7; FLOAT: right; BORDER-LEFT: #d4d1cf 1px solid; WIDTH: 205px; PADDING-TOP: 50px; BORDER-BOTTOM: #f9c39c 1px solid; HEIGHT: 300px
+}
+.broker_pic {
+	MARGIN-TOP: 20px; HEIGHT: 120px
+}
+.broker_pic IMG {
+	BORDER-RIGHT: #c4c4c4 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #c4c4c4 1px solid; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; BORDER-LEFT: #c4c4c4 1px solid; PADDING-TOP: 4px; BORDER-BOTTOM: #c4c4c4 1px solid
+}
+.broker_name A {
+	DISPLAY: block
+}
+.broker_links {
+	PADDING-LEFT: 15px; TEXT-ALIGN: left
+}
+.broker_home {
+	MARGIN-TOP: 10px
+}
+.broker_home A {
+	MARGIN-TOP: 10px; DISPLAY: block
+}
+.number {
+	PADDING-LEFT: 10px; FLOAT: left; PADDING-TOP: 5px; HEIGHT: 25px; TEXT-ALIGN: left
+}
+.number SPAN {
+	FONT-WEIGHT: bold; COLOR: #3b6203
+}
+.house_number {
+	BORDER-BOTTOM: #dddddd 1px dashed; HEIGHT: 28px
+}
+.house_number P {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 10px; PADDING-TOP: 5px
+}
+.info_boxR {
+	BORDER-RIGHT: #f9c39c 1px solid; FLOAT: right; WIDTH: 480px; BORDER-BOTTOM: #f9c39c 1px solid; HEIGHT: 460px
+}
+.info_boxR1 {
+	FLOAT: left; BORDER-LEFT: #f9c39c 1px solid; WIDTH: 480px; BORDER-BOTTOM: #f9c39c 1px solid; HEIGHT: 350px
+}
+.time {
+	FLOAT: right; COLOR: #999999
+}
+.time I {
+	FONT-STYLE: normal
+}
+.house_info {
+	MARGIN-TOP: 20px; PADDING-LEFT: 8px; WIDTH: 460px; LINE-HEIGHT: 32px; TEXT-ALIGN: left
+}
+.house_info LI {
+	PADDING-LEFT: 40px; FLOAT: left; WIDTH: 180px; HEIGHT: 30px
+}
+.house_info EM {
+	FONT-SIZE: 24px; COLOR: #ff3f13; FONT-STYLE: normal
+}
+.eeju_mail {
+	PADDING-LEFT: 20px; BACKGROUND: url(../image/notice_btn.gif) no-repeat
+}
+.house_info2 {
+	CLEAR: both; MARGIN-TOP: 10px; PADDING-LEFT: 20px; OVERFLOW: hidden; HEIGHT: auto; TEXT-ALIGN: left
+}
+.info2_long {
+	WIDTH: 400px; HEIGHT: auto
+}
+.info2_short {
+	WIDTH: 195px
+}
+.house_info2 LI {
+	PADDING-LEFT: 10px; FLOAT: left; LINE-HEIGHT: 24px; PADDING-TOP: 5px; BORDER-BOTTOM: #d7d4d4 1px dashed; HEIGHT: 25px
+}
+.tel_number {
+	MARGIN-TOP: 15px; PADDING-LEFT: 45px; FONT-WEIGHT: bold; FONT-SIZE: 18px; BACKGROUND: url(../image/tel_number.gif) no-repeat; MARGIN-LEFT: auto; WIDTH: 285px; MARGIN-RIGHT: auto; PADDING-TOP: 26px; FONT-FAMILY: Verdana,Arial,Helvetica,sans-serif; HEIGHT: 55px
+}
+.report {
+	PADDING-LEFT: 20px; WIDTH: 400px
+}
+.report A {
+	PADDING-LEFT: 20px; MARGIN-RIGHT: 10px
+}
+.report1 {
+	BACKGROUND: url(../image/report1.gif) no-repeat
+}
+.report2 {
+	BACKGROUND: url(../image/report2.gif) no-repeat
+}
+.info_nav {
+	MARGIN-TOP: 10px; BORDER-BOTTOM: #ff9a03 2px solid; HEIGHT: 30px
+}
+.info_nav A {
+	COLOR: #333333; TEXT-DECORATION: none
+}
+#info_now {
+	FONT-WEIGHT: bold; BACKGROUND: url(../image/list_tabnow.gif) no-repeat; COLOR: #fff
+}
+.info_nav LI {
+	FONT-SIZE: 14px; BACKGROUND: url(../image/list_tab.gif) no-repeat; FLOAT: left; WIDTH: 90px; LINE-HEIGHT: 25px; MARGIN-RIGHT: 5px; PADDING-TOP: 4px; HEIGHT: 26px
+}
+.summarize {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-SIZE: 14px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; TEXT-ALIGN: left
+}
+.summarize IMG {
+	BORDER-RIGHT: #d7d5d5 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #d7d5d5 1px solid; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; BORDER-LEFT: #d7d5d5 1px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #d7d5d5 1px solid
+}
+.map_pic {
+	BORDER-RIGHT: #d1d1d1 1px solid; BORDER-TOP: #d1d1d1 1px solid; BORDER-LEFT: #d1d1d1 1px solid; BORDER-BOTTOM: #d1d1d1 1px solid; HEIGHT: 260px
+}
+.map_info H3 {
+	MARGIN-TOP: 10px; FONT-SIZE: 14px
+}
+.map_Item ADDRESS {
+	PADDING-TOP: 10px; FONT-STYLE: normal
+}
+.FloorPlan {
+	MARGIN-TOP: 20px; BORDER-BOTTOM: #fe9852 1px solid; HEIGHT: 25px
+}
+.FloorPlan H3 {
+	FONT-SIZE: 14px; FLOAT: left
+}
+.FloorPlan SPAN {
+	PADDING-LEFT: 10px; FONT-SIZE: 12px; BACKGROUND: url(../image/go_top.gif) no-repeat 0px 7px; FLOAT: right
+}
+.FloorPlan_con {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 20px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; HEIGHT: auto; TEXT-ALIGN: center
+}
+.roomin_con {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 20px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; HEIGHT: auto; TEXT-ALIGN: center
+}
+.roomout_con {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 20px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; HEIGHT: auto; TEXT-ALIGN: center
+}
+.plot {
+	BORDER-RIGHT: #d4d1cf 1px solid; BORDER-TOP: #d4d1cf 1px solid; MARGIN-TOP: 20px; BACKGROUND: url(../image/plot_bg.gif) repeat-x; BORDER-LEFT: #d4d1cf 1px solid; HEIGHT: 33px
+}
+.plot H3 {
+	PADDING-LEFT: 10px; FONT-SIZE: 14px; FLOAT: left; PADDING-TOP: 5px
+}
+.plot SPAN {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-SIZE: 12px; BACKGROUND: url(../image/go_top.gif) no-repeat 0px 10px; FLOAT: right; PADDING-BOTTOM: 0px; PADDING-TOP: 5px
+}
+.plot_info {
+	PADDING-LEFT: 20px; PADDING-TOP: 10px
+}
+.plot_info DT {
+	WIDTH: 600px
+}
+.plot_info DD {
+	FLOAT: left; WIDTH: 300px
+}
+.orange {
+	FONT-SIZE: 20px; COLOR: #ff3300
+}
+.plot_pic {
+	CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 20px; PADDING-TOP: 20px
+}
+.plot_pic IMG {
+	CLEAR: both; BORDER-RIGHT: #dddddd 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #dddddd 1px solid; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; BORDER-LEFT: #dddddd 1px solid; PADDING-TOP: 4px; BORDER-BOTTOM: #dddddd 1px solid
+}
+.plot_pic DD {
+	FLOAT: left; MARGIN-LEFT: 20px
+}
+.summarize ADDRESS {
+	PADDING-LEFT: 20px; WIDTH: 600px; FONT-STYLE: normal
+}
+.plot_more {
+	PADDING-LEFT: 10px; PADDING-TOP: 10px; HEIGHT: 30px
+}
+.plot_more LI {
+	FLOAT: left; MARGIN-RIGHT: 20px
+}
+.ts_msg {
+	MARGIN: 10px
+}
+.commaddress {
+	PADDING-LEFT: 12px; FONT-SIZE: 12px; PADDING-BOTTOM: 20px; LINE-HEIGHT: 28px
+}
+.comminfo {
+	FONT-SIZE: 14px; PADDING-BOTTOM: 10px; LINE-HEIGHT: 32px; PADDING-TOP: 15px
+}
+.commtrends {
+	FONT-SIZE: 14px; MARGIN-LEFT: 10px; LINE-HEIGHT: 32px
+}
+.propCommIntroBox {
+	CLEAR: both; PADDING-BOTTOM: 10px; MARGIN: 10px 0px 0px; PADDING-TOP: 10px
+}
+.commphotobox .commtitle {
+	PADDING-BOTTOM: 5px; BORDER-BOTTOM: #d5ddf9 1px solid
+}
+.commphoto {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FLOAT: left; PADDING-BOTTOM: 2px; MARGIN: 10px 10px 15px; PADDING-TOP: 2px; BORDE: #ddd 1px solid
+}
+.commphotobox SPAN.morepic {
+	FLOAT: right; HEIGHT: 14px
+}
+.clear {
+	CLEAR: both; FONT-SIZE: 0px; LINE-HEIGHT: 0
+}
+.useful_box {
+	HEIGHT: 70px
+}
+.useful_boxT {
+	FONT-SIZE: 0px; BACKGROUND: url(../image/useful_boxT.gif) no-repeat left top; HEIGHT: 5px
+}
+.useful_boxC {
+	BACKGROUND: url(../image/useful_boxC.gif) repeat-y left top; PADDING-TOP: 10px; HEIGHT: 50px
+}
+.useful_boxB {
+	BACKGROUND: url(../image/useful_boxB.gif) no-repeat left top; HEIGHT: 10px
+}
+.useful_box LI {
+	FLOAT: left
+}
+.house_list {
+	PADDING-LEFT: 20px; BACKGROUND: url(../image/house_list.gif) no-repeat 18px 0px; WIDTH: 100px
+}
+.add_list {
+	PADDING-LEFT: 20px; BACKGROUND: url(../image/house_listadd.gif) no-repeat 13px 0px; WIDTH: 90px; TEXT-ALIGN: right
+}
+.price_wave {
+	PADDING-LEFT: 20px; BACKGROUND: url(../image/price_wave.gif) no-repeat 13px 5px; WIDTH: 90px; TEXT-ALIGN: right
+}
+.printer {
+	PADDING-LEFT: 20px; BACKGROUND: url(../image/printer.gif) no-repeat 18px 5px; WIDTH: 100px
+}
+.pricetrend {
+	MARGIN-TOP: 10px; HEIGHT: 300px
+}
+.sale_other {
+	MARGIN-TOP: 10px
+}
+.R_title {
+	DISPLAY: block; BACKGROUND: url(../image/RV_title.gif) no-repeat; HEIGHT: 30px
+}
+.R_title H4 {
+	PADDING-LEFT: 10px; FONT-SIZE: 12px; FLOAT: left; MARGIN-BOTTOM: 5px; COLOR: #6b6b6b; LINE-HEIGHT: 30px; TEXT-ALIGN: left
+}
+.R_title SPAN {
+	PADDING-RIGHT: 10px; FLOAT: right; PADDING-TOP: 5px
+}
+.R_con {
+	BORDER-RIGHT: #d0cdca 1px solid; BORDER-TOP: #d0cdca 1px; PADDING-LEFT: 10px; BORDER-LEFT: #d0cdca 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #d0cdca 1px solid; HEIGHT: 165px
+}
+.R_con2 {
+	BORDER-RIGHT: #d0cdca 1px solid; BORDER-TOP: #d0cdca 1px; PADDING-LEFT: 10px; BORDER-LEFT: #d0cdca 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #d0cdca 1px solid; HEIGHT: 255px
+}
+.R_con LI {
+	FLOAT: left; WIDTH: 230px; LINE-HEIGHT: 30px; BORDER-BOTTOM: #c1c1c1 1px dashed
+}
+.R_con2 LI {
+	FLOAT: left; WIDTH: 230px; LINE-HEIGHT: 30px; BORDER-BOTTOM: #c1c1c1 1px dashed
+}
+.R_con LI DIV {
+	FLOAT: left
+}
+.R_con2 LI DIV {
+	FLOAT: left
+}
+.house_name {
+	WIDTH: 110px; TEXT-ALIGN: left
+}
+.house_area {
+	WIDTH: 50px; TEXT-ALIGN: right
+}
+.house_price {
+	WIDTH: 70px; COLOR: #ff3f13; TEXT-ALIGN: right
+}
+.picname {
+	HEIGHT: 20px; TEXT-ALIGN: center
+}
+.show_right {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 690px; HEIGHT: auto
+}
+.house_Num {
+	BACKGROUND: url(../image/num_title.gif) no-repeat; BORDER-BOTTOM: #ff9900 2px solid; HEIGHT: 30px
+}
+.Num_title {
+	PADDING-LEFT: 10px; FONT-WEIGHT: bold; FONT-SIZE: 14px; FLOAT: left; WIDTH: 140px; COLOR: #fff; MARGIN-RIGHT: 20px; PADDING-TOP: 8px
+}
+.time_a {
+	MARGIN-TOP: 5px; FLOAT: left; WIDTH: 130px; COLOR: #666666
+}
+.show_box {
+	BORDER-RIGHT: #ff9900 1px solid; BORDER-TOP: #ff9900 1px; BORDER-LEFT: #ff9900 1px solid; BORDER-BOTTOM: #ff9900 1px solid; HEIGHT: 210px
+}
+.show_title {
+	BACKGROUND: #fae7ca; HEIGHT: 32px
+}
+.show_title H1 {
+	PADDING-LEFT: 10px; FONT-SIZE: 18px; PADDING-TOP: 5px; TEXT-ALIGN: left
+}
+.show_boxL {
+	BORDER-RIGHT: #fde1c2 1px solid; MARGIN-TOP: 10px; FLOAT: left; WIDTH: 360px
+}
+.show_boxR {
+	MARGIN-TOP: 20px; FLOAT: right; WIDTH: 300px; PADDING-TOP: 10px
+}
+.buy_info {
+	PADDING-LEFT: 20px
+}
+.buy_info LI {
+	PADDING-LEFT: 5px; FONT-SIZE: 14px; FLOAT: left; WIDTH: 150px; COLOR: #333333; LINE-HEIGHT: 30px; BORDER-BOTTOM: #ddd 1px dashed; HEIGHT: 30px; TEXT-ALIGN: left
+}
+#long_price {
+	WIDTH: 300px
+}
+.buy_price {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR: #ea4227; FONT-FAMILY: Arial,Helvetica,'����',sans-serif; HEIGHT: 30px
+}
+.Contact_info LI {
+	FONT-SIZE: 14px; FLOAT: left; WIDTH: 280px; COLOR: #333333; PADDING-TOP: 5px; BORDER-BOTTOM: #ddd 1px dashed; HEIGHT: 30px
+}
+.Contact_info DT {
+	FLOAT: left; WIDTH: 80px; TEXT-ALIGN: right
+}
+.Contact_info DD {
+	FLOAT: left
+}
+.tel {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR: #5d7a16; FONT-FAMILY: Arial,Helvetica,'����',sans-serif
+}
+.summary_box {
+	TEXT-ALIGN: left
+}
+.summary_title {
+	MARGIN-TOP: 10px; PADDING-LEFT: 10px; FONT-WEIGHT: bold; FONT-SIZE: 14px; PADDING-TOP: 5px; BORDER-BOTTOM: #e6e6e5 2px solid; HEIGHT: 25px
+}
+.descriptor {
+	FONT-SIZE: 14px; PADDING-TOP: 10px
+}
+.color_info {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; FONT-SIZE: 12px; BACKGROUND: #e0f155; PADDING-BOTTOM: 3px; MARGIN-LEFT: 10px; PADDING-TOP: 3px
+}
+.buy_map {
+	BORDER-RIGHT: #ddd 1px solid; BORDER-TOP: #ddd 1px solid; BORDER-LEFT: #ddd 1px solid; BORDER-BOTTOM: #ddd 1px solid; HEIGHT: 200px
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link href="${staticCtx }/common/h5/css/bootstrap.min14ed.css?v=3.3.6" rel="stylesheet">
+    <link href="${staticCtx }/common/h5/css/font-awesome.min93e3.css?v=4.4.0" rel="stylesheet">
+    <link href="${staticCtx }/common/h5/css/animate.min.css" rel="stylesheet">
+    <link href="${staticCtx }/common/h5/css/style.min862f.css?v=4.1.0" rel="stylesheet">
+</head>
+<body class="gray-bg">
+<div class="row">
+    <div class="col-sm-12">
+        <div class="wrapper wrapper-content animated fadeInUp">
+            <div class="faq-item">
+                <div class="row">
+                    <div class="col-md-7">
+                        <a data-toggle="collapse" href="#faq1" class="faq-question">1. 什么是通道管理？</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div id="faq1" class="panel-collapse collapse in faq-answer">
+                            <p>
+                                1、通道管理是对园门内通道闸机的基本信息进行设置，一个园门内可以设置多个通道闸机。<br>
+                                2、在通道设置中，可以设置通道闸机的通道名称、批量添加数目、进出方向（进口/出口）、是否可用（是/否）、设备当前状态(在线/离线)、验票控制方式(直接扣次数/先放行后再扣次数)等信息。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 10px">
+                    <div class="col-md-7">
+                        <a data-toggle="collapse" href="#faq2" class="faq-question">2. 怎么进行通道管理？</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div id="faq2" class="panel-collapse collapse in faq-answer">
+                            <p>
+                                <h4>2.1 添加通道</h4>
+                                &emsp;&emsp;在页面左侧【景点->园门】树形列表选中一个园门。点击【添加】按钮，在弹出的页面里录入通道的基本信息，其中标注为（*）的信息，为必填项。<br>
+                                &emsp;&emsp;信息录入完成，点击【提交】按钮，保存通道信息。
+                                <h4>2.2 修改通道</h4>
+                                &emsp;&emsp;在【通道】列表点击一条通道信息，会自动选中该通道，然后点击列表上方【修改】按钮，在弹出的页面里录入需要修改的信息。<br>
+                                &emsp;&emsp;信息录入完成，点击【提交】按钮，保存修改后的通道信息。
+                                <h4>2.3 删除通道</h4>
+                                &emsp;&emsp;在【通道】列表点击一条通道信息，会自动选中该通道，然后点击列表上方【删除】按钮。<br>
+                                &emsp;&emsp;在弹出的对话框里点击【确定】按钮，删除通道。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 10px">
+                    <div class="col-md-7">
+                        <a data-toggle="collapse" href="#faq3" class="faq-question">3. 名词解释</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div id="faq3" class="panel-collapse collapse in faq-answer">
+                            <p>
+                            <h4>3.1 批量添加数目</h4>
+                            <h4>3.2 进出方向</h4>
+                            <h4>3.3 是否可用</h4>
+                            <h4>3.4 设备当前状态</h4>
+                            <h4>3.5 验票控制方式</h4>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 10px">
+                    <div class="col-md-7">
+                        <a data-toggle="collapse" href="#faq4" class="faq-question">4. 备注</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div id="faq4" class="panel-collapse collapse in faq-answer">
+                            <p>
+                                1、在进行通道管理之前，需要先对园门信息进行添加。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="${staticCtx }/common/h5/js/jquery.min.js?v=2.1.4"></script>
+<script src="${staticCtx }/common/h5/js/bootstrap.min.js?v=3.3.6"></script>
+<script src="${staticCtx }/common/h5/js/content.min.js?v=1.0.0"></script>
+<script>
+    $(document).ready(function () {
+        $("#loading-example-btn").click(function () {
+            btn = $(this);
+            simpleLoad(btn, true);
+            simpleLoad(btn, false)
+        })
+    });
+
+    function simpleLoad(btn, state) {
+        if (state) {
+            btn.children().addClass("fa-spin");
+            btn.contents().last().replaceWith(" Loading")
+        } else {
+            setTimeout(function () {
+                btn.children().removeClass("fa-spin");
+                btn.contents().last().replaceWith(" Refresh")
+            }, 2000)
+        }
+    };
+</script>
+<script type="text/javascript" src="http://tajs.qq.com/stats?sId=9051096" charset="UTF-8"></script>
+</body>
+</html>

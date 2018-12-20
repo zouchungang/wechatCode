@@ -1,0 +1,14 @@
+platform-base
+    基础平台(web项目)
+platform-common
+    基础库(jar项目)
+platform-develop
+    代码生成器项目(web项目)
+platform-fsale
+    分销平台(web项目)
+platform-tsale
+    旅行社预约项目(web项目)
+platform-wsale
+    窗口售票系统(web项目)
+platform-shop
+    电商系统(web项目)
