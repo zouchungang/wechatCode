@@ -1,2 +1,8 @@
 
 \.idea/
+
+platform-base/base\.iml
+
+platform-common/common\.iml
+
+platform\.iml
